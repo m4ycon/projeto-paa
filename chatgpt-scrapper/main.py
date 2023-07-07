@@ -13,11 +13,15 @@ messages.append({
   "content": "You are a scrapper robot that generates formatted questions and answers from pokemon universe"
 })
 
-print("Your new assistant is ready!")
-while input != "quit()":
-  message = input()
+total_tokens = 0
+
+while True:
+  message = input('\nuser > ')
   messages.append({"role": "user", "content": message})
+
   response = openai.ChatCompletion.create(model=model_name, messages=messages)
   reply = response["choices"][0]["message"]["content"]
+  total_tokens += response["usage"]["total_tokens"]
+  
   messages.append({"role": "assistant", "content": reply})
-  print("\n" + reply + "\n")
+  print(f'\n{model_name} ({total_tokens}) > {reply}')
