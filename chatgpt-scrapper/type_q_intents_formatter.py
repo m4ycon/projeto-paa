@@ -99,23 +99,21 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
 
 
 # build questions_answers
-questions_answers = []
+formatted_intents = []
 for tag, patterns in intents.items():
-  questions_answers.append({
+  formatted_intents.append({
     "tag": tag,
     "patterns": patterns,
     "responses": [tag],
   })
 
-intents_json = {"intents": []}
 
 if os.path.exists(f'{filedir}/data/intents.json'):
   intents_file = open(f'{filedir}/data/intents.json', mode="r", encoding="utf-8").read()
-  intents_json = json.loads(intents_file)
 
-intents_json["intents"].extend(questions_answers)
+filename = 'qtype_intents.json'
 
-with open(f'{filedir}/data/intents.json', mode="w", encoding="utf-8") as intents_file:
-  json.dump(intents_json, intents_file, indent=2)
+with open(f'{filedir}/data/{filename}', mode="w", encoding="utf-8") as intents_file:
+  json.dump(formatted_intents, intents_file, indent=2)
 
-print(f"Added {len(questions_answers)} questions to intents.json")
+print(f"Added {len(formatted_intents)} questions to {filename}")
