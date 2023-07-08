@@ -11,6 +11,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
+from timeit import default_timer as timer
+t_start = timer()
+
 
 filedir = os.path.dirname(os.path.realpath(__file__))
 
@@ -74,11 +77,15 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-sgd = SGD(learning_rate=.01, weight_decay=1e-6, momentum=.9, nesterov=True)
+sgd = SGD(learning_rate=.005, weight_decay=1e-6, momentum=.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
-model.save(f'{filedir}/data/pokemon_gpt.h5', hist)
-print('Done')
+hist = model.fit(train_x, train_y, epochs=50, batch_size=10, verbose=2)
+model.save(f'{filedir}/data/pokemon_gpt.keras', hist)
 
+execution_time = int(timer() - t_start)
+minutes = execution_time // 60
+seconds = execution_time % 60
+exec_time_str = f'{minutes}m {seconds}s'
 
+print(f'Training completed in {exec_time_str} seconds with {len(train_x)} training samples.')
