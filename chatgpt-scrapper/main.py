@@ -6,13 +6,23 @@ import os
 
 import nltk
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 from tensorflow.keras.models import load_model
 
 filedir = os.path.dirname(os.path.realpath(__file__))
 
+try:
+  nltk.word_tokenize('test')
+  stopwords.words('english')
+except LookupError:
+  print('Downloading NLTK packages...')
+  nltk.download('punkt')
+  nltk.download('stopwords')
+
 
 lemmatizer = WordNetLemmatizer()
+stop_words = stopwords.words('english')
 
 intents_file = open(f'{filedir}/data/intents.json', mode="r", encoding="utf-8").read()
 intents_json = json.loads(intents_file)
@@ -24,6 +34,7 @@ model = load_model(f'{filedir}/data/pokemon_gpt.keras')
 class PokemonGpt:
   def clean_up_sentence(self, sentence):
     sentence_words = nltk.word_tokenize(sentence)
+    sentence_words = [word for word in sentence_words if word.lower() not in stop_words]
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 

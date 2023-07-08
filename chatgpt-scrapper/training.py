@@ -6,6 +6,7 @@ import os
 
 import nltk
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
@@ -19,9 +20,11 @@ filedir = os.path.dirname(os.path.realpath(__file__))
 
 try:
   nltk.word_tokenize('test')
+  stopwords.words('english')
 except LookupError:
   print('Downloading NLTK packages...')
   nltk.download('punkt')
+  nltk.download('stopwords')
 
 
 lemmatizer = WordNetLemmatizer()
@@ -31,10 +34,12 @@ intents = json.loads(intents_file)
 
 words, classes, documents = [], [], []
 ignore_letters = ['?', '!', '.', ',']
+stop_words = stopwords.words('english')
 
 for intent in intents['intents']:
   for pattern in intent['patterns']:
     word_list = nltk.word_tokenize(pattern)
+    word_list = [word for word in word_list if word.lower() not in stop_words]
     words.extend(word_list)
     documents.append((word_list, intent['tag']))
 
@@ -77,7 +82,7 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-sgd = SGD(learning_rate=.005, weight_decay=1e-6, momentum=.9, nesterov=True)
+sgd = SGD(learning_rate=.025, weight_decay=1e-6, momentum=.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 hist = model.fit(train_x, train_y, epochs=50, batch_size=10, verbose=2)
