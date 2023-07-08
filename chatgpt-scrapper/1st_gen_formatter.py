@@ -45,7 +45,7 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
     abilities = row["abilities"].replace("[", "").replace("]", "").replace("'", "").split(r",\s?")
     abilities = ', '.join(abilities)
     pokemons[pokemon_name].append({
-      "tag": "abilities",
+      "tag": f"{pokemon_name} - abilities",
       "patterns": [
         f"What are the abilities of {pokemon_name}?",
         f"what are {pokemon_name}'s abilities?",

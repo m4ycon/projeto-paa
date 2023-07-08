@@ -82,10 +82,10 @@ model.add(Dense(64, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
-sgd = SGD(learning_rate=.025, weight_decay=1e-6, momentum=.9, nesterov=True)
+sgd = SGD(learning_rate=.007, weight_decay=1e-6, momentum=.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
-hist = model.fit(train_x, train_y, epochs=50, batch_size=10, verbose=2)
+hist = model.fit(train_x, train_y, epochs=30, batch_size=10, verbose=2)
 model.save(f'{filedir}/data/pokemon_gpt.keras', hist)
 
 execution_time = int(timer() - t_start)

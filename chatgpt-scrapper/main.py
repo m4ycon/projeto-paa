@@ -72,7 +72,7 @@ pokemonGpt = PokemonGpt()
 
 print("Welcome to the Pokemon Chatbot!")
 while True:
-  message = input("You: ")
+  message = input("You > ")
   res = pokemonGpt.get_response(message)
-  print(f"Bot: {res}")
+  print(f"Bot > {res}")
 
