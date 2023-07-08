@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "tag": "legendary pokemons",
+      "patterns": [
+        "which pokemons are legendary?",
+        "list of legendary pokemons",
+        "which pokemon species are considered legendary?"
+      ],
+      "responses": [
+        "The legendary pokemons from the first generation include Articuno, Zapdos, Moltres, Mewtwo, and Mew."
+      ]
+    },
+    {
+      "tag": "blastoise type",
+      "patterns": [
+        "what type is blastoise?",
+        "what type of pokemon is blastoise?",
+        "what is blastoise type?"
+      ],
+      "responses": [
+        "blastoise is a water type pokemon",
+        "blastoise type is water"
+      ]
+    }
+  ]
+}
