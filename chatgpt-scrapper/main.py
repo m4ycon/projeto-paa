@@ -24,12 +24,12 @@ except LookupError:
 lemmatizer = WordNetLemmatizer()
 stop_words = stopwords.words('english')
 
-intents_file = open(f'{filedir}/data/intents.json', mode="r", encoding="utf-8").read()
+intents_file = open(f'{filedir}/data/pguess_intents_backup.json', mode="r", encoding="utf-8").read()
 intents_json = json.loads(intents_file)
 
-words = pickle.load(open(f'{filedir}/data/words.pkl', mode="rb"))
-classes = pickle.load(open(f'{filedir}/data/classes.pkl', mode="rb"))
-model = load_model(f'{filedir}/data/pokemon_gpt.keras')
+words = pickle.load(open(f'{filedir}/models/pguess/words.pkl', mode="rb"))
+classes = pickle.load(open(f'{filedir}/models/pguess/classes.pkl', mode="rb"))
+model = load_model(f'{filedir}/models/pguess/model.keras')
 
 class PokemonGpt:
   def clean_up_sentence(self, sentence):
@@ -52,8 +52,9 @@ class PokemonGpt:
   def predict_class(self, sentence):
     bow = self.bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
-    ERROR_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    # ERROR_THRESHOLD = 0.30
+    # results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    results = [[i, r] for i, r in enumerate(res)]
 
     results.sort(key=lambda x: x[1], reverse=True)
     return [{"intent": classes[r[0]], "probability": str(r[1])} for r in results]
@@ -62,7 +63,7 @@ class PokemonGpt:
   def get_response(self, message):
     intents_list = self.predict_class(message)
     tag = intents_list[0]['intent']
-    list_of_intents = intents_json['intents']
+    list_of_intents = intents_json
     for i in list_of_intents:
       if i['tag'] == tag:
         return random.choice(i['responses'])

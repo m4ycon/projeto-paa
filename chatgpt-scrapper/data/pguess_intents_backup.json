@@ -431,21 +431,6 @@
     ]
   },
   {
-    "tag": "Nidoran",
-    "patterns": [
-      "small, quadrupedal Pokemon with a round body covered in purple spines",
-      "It has large, round ears, and its eyes are red and beady",
-      "Its front paws are short with three claws, while its hind legs are longer and more powerful",
-      "The female Nidoran has smaller, shorter spines than the male, and a smaller horn on its forehead",
-      "The male Nidoran has larger spines and a prominent horn on its forehead",
-      "Both genders of Nidoran have a cream-colored underbelly and sharp, poisonous claws",
-      "Nidoran"
-    ],
-    "responses": [
-      "Nidoran"
-    ]
-  },
-  {
     "tag": "Nidorina",
     "patterns": [
       "Nidorina is a small, quadrupedal Pokemon that resembles a rabbit or kangaroo",
