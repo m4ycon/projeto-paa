@@ -19,11 +19,15 @@ from timeit import default_timer as timer
 
 filedir = os.path.dirname(os.path.realpath(__file__))
 
+lemmatizer = WordNetLemmatizer()
+
 try:
+  lemmatizer.lemmatize('word')
   nltk.word_tokenize('test')
   stopwords.words('english')
 except LookupError:
   print('Downloading NLTK packages...')
+  nltk.download('wordnet')
   nltk.download('punkt')
   nltk.download('stopwords')
 
@@ -62,8 +66,6 @@ print('=' * 50)
 print('Loading data...')
 
 model_folder = f'{filedir}/models/{output_foldername}'
-
-lemmatizer = WordNetLemmatizer()
 
 intents_file = open(f'{filedir}/{intents_filename}', mode="r", encoding="utf-8").read()
 intents = json.loads(intents_file)
@@ -154,7 +156,9 @@ print(f'Model saved to {model_path}')
 # lr: 0.004, batch: 12, epochs: 1000 = 0.78
 # lr: 0.0045, batch: 20, epochs: 1000 = loss: 0.9343 - accuracy: 0.7734
 # lr: 0.0045, batch: 8, epochs: 1000 = 0.76
-# lr: 0.006, batch: 16, epochs: 1000 =
+# lr: 0.006, batch: 16, epochs: 1000 = loss: 0.9222 - accuracy: 0.7784 - 170ms/epoch
+# lr: 0.0055, batch: 16, epochs: 1000 = loss: 0.8965 - accuracy: 0.7894 - 171ms/epoch
+# lr: 0.0066, batch: 16, epochs: 1000 = 
 
 
 # qtype_intents
