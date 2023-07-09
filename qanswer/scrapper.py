@@ -6,11 +6,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+filedir = os.path.dirname(os.path.realpath(__file__))
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class GptScrapper:
   def __init__(self, model_name = "gpt-3.5-turbo"):
-    system_def_content = open('./chatgpt-scrapper/data/system.txt', mode="r", encoding="utf-8").read()
+    system_def_content = open(f'{filedir}/data/system.txt', mode="r", encoding="utf-8").read()
     self.system_def = { "role": "system", "content": system_def_content }
 
     self.model_name = model_name
@@ -39,6 +40,11 @@ class GptScrapper:
 
 gptScrapper = GptScrapper()
 
+while True:
+  message = input('\nuser > ')
+  reply = gptScrapper.chat_without_context(message)
+  print(f'\n{gptScrapper.model_name} ({gptScrapper.total_tokens}) > {reply}')
+
 
 # filedir = os.path.dirname(os.path.realpath(__file__))
 # csv_file = open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8")
@@ -47,18 +53,19 @@ gptScrapper = GptScrapper()
 
 # intents = [] # { "tag": pokemons_name, "patterns": [], "responses": [pokemons_name] }
 # filename = 'pguess_intents.json'
+# errors = []
 
 # for i, pokemon_name in enumerate(pokemon_names):
 #   print(f'{i+1}/{len(pokemon_names)}: {pokemon_name}')
 #   reply = ''
-#   patterns = []
+#   patterns = ''
 
 #   try:
 #     reply = gptScrapper.chat_without_context(pokemon_name)
-#     patterns = json.loads(reply)['patterns']
+#     patterns = reply
 #   except:
 #     print(f'Error: {pokemon_name}\n{reply}')
-#     continue
+#     errors.append(pokemon_name)
 
 #   intents.append({
 #     "tag": pokemon_name,
@@ -71,13 +78,4 @@ gptScrapper = GptScrapper()
 #   json.dump(intents, intents_file, indent=2)
 
 # print(f"Added {len(intents)} questions to {filename}")
-
-
-
-while True:
-  message = input('\nuser > ')
-  reply = gptScrapper.chat_without_context(message)
-  print(f'\n{gptScrapper.model_name} ({gptScrapper.total_tokens}) > {reply}')
-
-
-# Gengar, Tentacruel
+# print(f"Errors: {errors}")
