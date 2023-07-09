@@ -2,7 +2,7 @@
   {
     "tag": "Bulbasaur",
     "patterns": [
-      "Bulbasaur is a small, bipedal Pok\u00e9mon that has blue-green skin with darker blue-green spots",
+      "Bulbasaur is a small, bipedal Pokemon that has blue-green skin with darker blue-green spots",
       "It has red eyes with white pupils and pointed, ear-like structures on top of its head",
       "On its back, there is a green plant bulb, known as a seed, which grows as Bulbasaur evolves",
       "The bulb absorbs sunlight and provides energy for Bulbasaur to grow and power its moves",
@@ -16,7 +16,7 @@
   {
     "tag": "Ivysaur",
     "patterns": [
-      "Ivysaur is a medium-sized Pok\u00e9mon that resembles a dinosaur or a small reptile",
+      "Ivysaur is a medium-sized Pokemon that resembles a dinosaur or a small reptile",
       "It has a blue-green body with darker green patches on its skin",
       "Its most noticeable feature is the large plant bulb on its back, which is in the middle of developing into a beautiful flower",
       "The flower bud is partially open, revealing a hint of the petals to come",
@@ -33,7 +33,7 @@
   {
     "tag": "Venusaur",
     "patterns": [
-      "Venusaur is a large, quadrupedal dinosaur-like Pok\u00e9mon with a blue-green body",
+      "Venusaur is a large, quadrupedal dinosaur-like Pokemon with a blue-green body",
       "It has thick, dark greenish-blue skin covering its back and a lighter green color on its underbelly",
       "On its back, there are several small, pointed, bright red petals",
       "Its eyes are red with white pupils and it has a rounded snout with a slightly hooked upper lip",
@@ -47,7 +47,7 @@
   {
     "tag": "Charmander",
     "patterns": [
-      "Charmander is a small, reptilian Pok\u00e9mon with a mostly orange body",
+      "Charmander is a small, reptilian Pokemon with a mostly orange body",
       "It has a flame burning on the end of its tail, which signifies its life force",
       "The flame on its tail flickers and flares up when it is excited or agitated",
       "Charmander has blue eyes and a cream-colored underside",
@@ -62,7 +62,7 @@
   {
     "tag": "Charmeleon",
     "patterns": [
-      "Charmeleon is a fire-type Pok\u00e9mon and the evolved form of Charmander",
+      "Charmeleon is a fire-type Pokemon and the evolved form of Charmander",
       "It has a slender, dinosaur-like body with orange skin and a cream-colored underside",
       "Its head is adorned with a large, flame-like crest that flickers when it is excited or angered",
       "Charmeleon has sharp claws on its hands and feet, and a long, lizard-like tail with a flame at the tip",
@@ -77,7 +77,7 @@
   {
     "tag": "Charizard",
     "patterns": [
-      "Charizard is a large, dragon-like Pok\u00e9mon",
+      "Charizard is a large, dragon-like Pokemon",
       "It has a stocky build and powerful wings",
       "Its body is primarily orange, with a cream-colored underside and a flare of bright yellow on its chest and tail",
       "It has two small, sharp horns on top of its head",
@@ -95,7 +95,7 @@
   {
     "tag": "Squirtle",
     "patterns": [
-      "Squirtle is a small, turtle-like Pok\u00e9mon",
+      "Squirtle is a small, turtle-like Pokemon",
       "It has a smooth, light blue skin and a cream-colored underbelly",
       "Its shell on its back is brown and has a plant growing on it",
       "Squirtle has a long, curled tail and its eyes are round and expressive",
@@ -109,7 +109,7 @@
   {
     "tag": "Wartortle",
     "patterns": [
-      "Wartortle is a turtle-like Pok\u00e9mon with a blue body and a brown shell on its back",
+      "Wartortle is a turtle-like Pokemon with a blue body and a brown shell on its back",
       "It has a long, furry tail that is blue on the top and yellow on the bottom",
       "There are two small, pointed ears on top of its head and its eyes are blue",
       "Wartortle has two white whiskers on its chin and a small patch of freckles on its cheeks",
@@ -123,7 +123,7 @@
   {
     "tag": "Blastoise",
     "patterns": [
-      "Blastoise is a large, blue, turtle-like Pok\u00e9mon with a tough, armored shell",
+      "Blastoise is a large, blue, turtle-like Pokemon with a tough, armored shell",
       "It has a cream-colored, furry underside and a long, thick tail",
       "On its back, there are two water cannons that can shoot powerful blasts of water",
       "Its head has two pointy ears and its eyes have a fierce, determined look",
@@ -138,7 +138,7 @@
   {
     "tag": "Caterpie",
     "patterns": [
-      "Caterpie is a small, larva-like Pok\u00e9mon with a green body",
+      "Caterpie is a small, larva-like Pokemon with a green body",
       "Its body is covered in a soft, fuzzy yellow fur",
       "It has six tiny, stubby legs that it uses to move around",
       "Caterpie has large, round eyes and a small, beak-like mouth",
@@ -153,7 +153,7 @@
   {
     "tag": "Metapod",
     "patterns": [
-      "Metapod is a small, green Pok\u00e9mon that resembles a cocoon",
+      "Metapod is a small, green Pokemon that resembles a cocoon",
       "It has a hard, protective shell that covers its body",
       "Its round body is mostly featureless, with only a white face and black eyes visible",
       "Metapod's shell is so tough that it is nearly impossible to damage",
@@ -167,13 +167,13 @@
   {
     "tag": "Butterfree",
     "patterns": [
-      "Butterfree is a beautiful butterfly-like Pok\u00e9mon",
+      "Butterfree is a beautiful butterfly-like Pokemon",
       "It has large wings with colorful patterns that resemble stained glass",
       "Its body is mostly white, with a few black markings on its head and abdomen",
       "Butterfree has large compound eyes that are red in color",
       "Its wings have a thin, black outline and are decorated with yellow, blue, and red spots",
       "The tips of its wings are elongated and somewhat transparent, giving them a delicate appearance",
-      "Despite its delicate appearance, Butterfree is a strong Pok\u00e9mon that can use powerful psychic and bug-type attacks",
+      "Despite its delicate appearance, Butterfree is a strong Pokemon that can use powerful psychic and bug-type attacks",
       "Butterfree"
     ],
     "responses": [
@@ -183,7 +183,7 @@
   {
     "tag": "Weedle",
     "patterns": [
-      "Weedle is a small, bug-type Pok\u00e9mon with a yellow, segmented body",
+      "Weedle is a small, bug-type Pokemon with a yellow, segmented body",
       "It has a round head with wide, shiny black eyes and a small horn on its forehead",
       "Its tiny mouth has sharp teeth, and it has a brown, beak-like nose",
       "Weedle's body is covered in short, bristly hairs that are a light brown color",
@@ -197,7 +197,7 @@
   {
     "tag": "Kakuna",
     "patterns": [
-      "Kakuna is a cocoon-like Pok\u00e9mon with a hard, yellow outer shell",
+      "Kakuna is a cocoon-like Pokemon with a hard, yellow outer shell",
       "Its body is round and it has a pointed tail",
       "The top of its head has a small, triangular horn",
       "It has black, oval-shaped eyes and a wide mouth",
@@ -211,7 +211,7 @@
   {
     "tag": "Beedrill",
     "patterns": [
-      "Beedrill is a large, wasp-like Pok\u00e9mon with a yellow and black striped body",
+      "Beedrill is a large, wasp-like Pokemon with a yellow and black striped body",
       "It has three black stingers on its rear and two black antennae on its head",
       "Its wings are translucent and it has two pairs of venomous, needle-like arms",
       "The stingers on its rear contain highly toxic venom that can cause extreme pain",
@@ -226,7 +226,7 @@
   {
     "tag": "Pidgey",
     "patterns": [
-      "small, bird-like Pok\u00e9mon with a plump body covered in brown feathers",
+      "small, bird-like Pokemon with a plump body covered in brown feathers",
       "It has a cream-colored face with large, round eyes and a small beak",
       "Pidgey has short wings with three pointed feathers on each side",
       "Its short legs have sharp talons, and it has a long, slender tail with a notched tip",
@@ -240,7 +240,7 @@
   {
     "tag": "Pidgeotto",
     "patterns": [
-      "Pidgeotto is a medium-sized, bird-like Pok\u00e9mon with brown feathers",
+      "Pidgeotto is a medium-sized, bird-like Pokemon with brown feathers",
       "Its head has a crest of red and yellow feathers, and its eyes are large and shiny",
       "It has a hooked beak and powerful wings, allowing it to soar through the sky",
       "Pidgeotto's chest and belly are covered in cream-colored feathers",
@@ -257,7 +257,7 @@
   {
     "tag": "Pidgeot",
     "patterns": [
-      "Pidgeot is a majestic, bird-like Pok\u00e9mon with a large wingspan",
+      "Pidgeot is a majestic, bird-like Pokemon with a large wingspan",
       "It has a brown body and a creamy-colored chest and underbelly",
       "Pidgeot's head is adorned with a beautiful crest of feathers, giving it a regal appearance",
       "It has a sharp beak and powerful talons for catching its prey",
@@ -273,7 +273,7 @@
   {
     "tag": "Rattata",
     "patterns": [
-      "small, cute, mouse-like Pok\u00e9mon that is almost completely covered in bright purple fur",
+      "small, cute, mouse-like Pokemon that is almost completely covered in bright purple fur",
       "It has long purple ears that are tipped with black, and large eyes",
       "Its cheeks are cream-colored and can produce electricity when charged up",
       "Its back has two brown stripes, its long tail is notable for being shaped like a lightning bolt",
@@ -287,7 +287,7 @@
   {
     "tag": "Raticate",
     "patterns": [
-      "Raticate is a large, rat-like Pok\u00e9mon with dark purple fur",
+      "Raticate is a large, rat-like Pokemon with dark purple fur",
       "It has large, round ears, small eyes, and sharp fangs",
       "The fur on its back is covered in a lighter shade of purple, and it has a cream-colored belly",
       "Raticate's long, thin tail has a small, triangular tuft of fur at the end",
@@ -302,7 +302,7 @@
   {
     "tag": "Spearow",
     "patterns": [
-      "Spearow is a small, bird-like Pok\u00e9mon covered in brown feathers",
+      "Spearow is a small, bird-like Pokemon covered in brown feathers",
       "It has a cream-colored underbelly and a pointed, hooked beak",
       "Spearow has long wings and a short tail with spikes at the end",
       "Its eyes are large and round with a sharp, focused expression",
@@ -321,7 +321,7 @@
   {
     "tag": "Fearow",
     "patterns": [
-      "Fearow is a large, bird-like Pok\u00e9mon with a long, thin neck and a sharp beak",
+      "Fearow is a large, bird-like Pokemon with a long, thin neck and a sharp beak",
       "It has a brown body with white underparts and a long, pointed crest on top of its head",
       "Fearow has large, round eyes and short, stubby wings",
       "Its legs are thin and have sharp talons",
@@ -337,12 +337,12 @@
   {
     "tag": "Ekans",
     "patterns": [
-      "Ekans is a purple, serpentine Pok\u00e9mon with a cream-colored underside",
+      "Ekans is a purple, serpentine Pokemon with a cream-colored underside",
       "It has yellow eyes with slit pupils, and its mouth is wide and jagged",
       "There are several pointed teeth visible in the upper jaw when its mouth is open",
       "Ekans has a hooded, frilled collar around its neck, and its tail ends in a rattlesnake-like rattle",
       "Its body is covered in smooth, overlapping scales that make it slippery and difficult to grip",
-      "This Pok\u00e9mon can unhinge its jaws to swallow large prey whole",
+      "This Pokemon can unhinge its jaws to swallow large prey whole",
       "It is known for its ability to constrict its opponents tightly with its body",
       "Ekans"
     ],
@@ -353,7 +353,7 @@
   {
     "tag": "Arbok",
     "patterns": [
-      "Arbok is a large, serpent-like Pok\u00e9mon with a dark purple body",
+      "Arbok is a large, serpent-like Pokemon with a dark purple body",
       "It has a hood on its head that is patterned with yellow and black markings, resembling a menacing face",
       "Arbok's eyes are chillingly narrow and yellow",
       "It has a wide mouth filled with sharp fangs",
@@ -369,7 +369,7 @@
   {
     "tag": "Pikachu",
     "patterns": [
-      "Small, cute, mouse-like Pok\u00e9mon that is almost completely covered in bright yellow fur",
+      "Small, cute, mouse-like Pokemon that is almost completely covered in bright yellow fur",
       "It has long yellow ears that are tipped with black, and large eyes",
       "Its cheeks are red and can produce electricity when charged up",
       "Its back has two brown stripes",
@@ -378,7 +378,7 @@
       "It is often seen with a smile on its face",
       "Pikachu's fur is soft and fluffy to the touch",
       "Its paws are small and pink in color",
-      "This Electric type Pok\u00e9mon is known for its powerful electric attacks",
+      "This Electric type Pokemon is known for its powerful electric attacks",
       "It is highly skilled at generating and controlling electricity",
       "Pikachu's yellow fur stands out in any crowd",
       "Pikachu"
@@ -390,7 +390,7 @@
   {
     "tag": "Raichu",
     "patterns": [
-      "Raichu is a medium-sized, bipedal rodent-like Pok\u00e9mon that is covered in yellow fur",
+      "Raichu is a medium-sized, bipedal rodent-like Pokemon that is covered in yellow fur",
       "It has long, pointed ears and large eyes with a deep brown iris",
       "Its cheeks have a circular patch of red pouches that can store electricity",
       "On its back, it has two brown stripes and a fluffy, long tail shaped like lightning bolt",
@@ -404,7 +404,7 @@
   {
     "tag": "Sandshrew",
     "patterns": [
-      "Sandshrew is a small, ground-type Pok\u00e9mon that resembles a shrew",
+      "Sandshrew is a small, ground-type Pokemon that resembles a shrew",
       "It has a sandy, yellowish-brown fur covering its entire body",
       "Its back has sharp, pointed quills that it uses for defense",
       "Sandshrew has a cream-colored underbelly and a short tail",
@@ -419,7 +419,7 @@
   {
     "tag": "Sandslash",
     "patterns": [
-      "Sandslash is a bipedal, ground-dwelling Pok\u00e9mon that resembles a large, spiky anteater",
+      "Sandslash is a bipedal, ground-dwelling Pokemon that resembles a large, spiky anteater",
       "It has a pale yellow coloration with a cream-colored chest, face, and undersides",
       "Its body is covered in sharp, sand-colored spikes that extend from its head to its tail",
       "Sandslash has long claws on its hands and feet, which it uses for digging deep burrows in the ground",
@@ -433,7 +433,7 @@
   {
     "tag": "Nidoran",
     "patterns": [
-      "small, quadrupedal Pok\u00e9mon with a round body covered in purple spines",
+      "small, quadrupedal Pokemon with a round body covered in purple spines",
       "It has large, round ears, and its eyes are red and beady",
       "Its front paws are short with three claws, while its hind legs are longer and more powerful",
       "The female Nidoran has smaller, shorter spines than the male, and a smaller horn on its forehead",
@@ -448,7 +448,7 @@
   {
     "tag": "Nidorina",
     "patterns": [
-      "Nidorina is a small, quadrupedal Pok\u00e9mon that resembles a rabbit or kangaroo",
+      "Nidorina is a small, quadrupedal Pokemon that resembles a rabbit or kangaroo",
       "It has light blue fur with darker blue patches on its ears, back, and tail",
       "Nidorina has large, round ears and bright red eyes",
       "It has short arms with three-fingered paws, and its hind legs are longer and more muscular",
@@ -462,7 +462,7 @@
   {
     "tag": "Nidoqueen",
     "patterns": [
-      "Nidoqueen is a large, reptilian Pok\u00e9mon with a sturdy, muscular build",
+      "Nidoqueen is a large, reptilian Pokemon with a sturdy, muscular build",
       "It has a light blue body with darker blue spines running down its back",
       "Nidoqueen has a distinctive crest on its head, which is pale yellow in color",
       "Its lower jaw and the tips of its large, pointed ears are also pale yellow",
@@ -477,7 +477,7 @@
   {
     "tag": "Nidoran",
     "patterns": [
-      "Nidoran is a small, rabbit-like Pok\u00e9mon that has a blue body with darker blue patches.",
+      "Nidoran is a small, rabbit-like Pokemon that has a blue body with darker blue patches.",
       "It has large ears, round, black eyes, and a small, horn-like protrusion on its forehead.",
       "Nidoran has short, stubby legs and a long, spiky tail.",
       "Its body is covered in small, purple spines or quills that can release a toxic poison.",
@@ -492,7 +492,7 @@
   {
     "tag": "Nidorino",
     "patterns": [
-      "Nidorino is a large, quadrupedal Pok\u00e9mon with a sturdy build",
+      "Nidorino is a large, quadrupedal Pokemon with a sturdy build",
       "It is predominantly blue in color with a white underside and a thick, powerful tail",
       "It has a horn on its forehead, which is larger and sharper than Nidorina's",
       "Nidorino has large, pointy ears and red eyes that give it an intimidating appearance",
@@ -506,7 +506,7 @@
   {
     "tag": "Nidoking",
     "patterns": [
-      "Nidoking is a large, powerful Pok\u00e9mon that resembles a bipedal dinosaur",
+      "Nidoking is a large, powerful Pokemon that resembles a bipedal dinosaur",
       "It has a bulky, muscular build and its body is covered in thick, grayish-purple skin",
       "Nidoking has a prominent horn on its forehead and smaller spines on its back and tail",
       "Its powerful arms end in large, clawed hands, while its legs have three toes with sharp claws",
@@ -521,7 +521,7 @@
   {
     "tag": "Clefairy",
     "patterns": [
-      "Clefairy is a small, fairy-like Pok\u00e9mon with a round, pale pink body",
+      "Clefairy is a small, fairy-like Pokemon with a round, pale pink body",
       "It has a stubby tail and short, stubby arms and legs",
       "Its large, expressive eyes are covered by a fringe of pink fur",
       "The tips of its ears and the puffs on its cheeks are also pink",
@@ -537,7 +537,7 @@
   {
     "tag": "Clefable",
     "patterns": [
-      "Clefable is a fairy type Pok\u00e9mon that is known for its round and cute appearance",
+      "Clefable is a fairy type Pokemon that is known for its round and cute appearance",
       "It has a stubby body covered in soft, pink fur",
       "Its face has large, expressive eyes and a small, black nose",
       "Clefable has long, rabbit-like ears and a curled tuft of fur on top of its head",
@@ -553,7 +553,7 @@
   {
     "tag": "Vulpix",
     "patterns": [
-      "Vulpix is a small, fox-like Pok\u00e9mon that has six orange tails",
+      "Vulpix is a small, fox-like Pokemon that has six orange tails",
       "It has a cream-colored fur with a white, fluffy ruff around its neck",
       "Vulpix also has large, blue eyes and a small, black nose",
       "Its tails are beautiful and curled at the tips",
@@ -567,7 +567,7 @@
   {
     "tag": "Ninetales",
     "patterns": [
-      "Ninetales is a beautiful, majestic Pok\u00e9mon with a fox-like appearance",
+      "Ninetales is a beautiful, majestic Pokemon with a fox-like appearance",
       "It has a slim body covered in luxurious, long, and flowing white fur",
       "Its mane and six tails are a stunning shade of crimson",
       "Ninetales has striking blue eyes that gleam with intelligence",
@@ -583,7 +583,7 @@
   {
     "tag": "Jigglypuff",
     "patterns": [
-      "Jigglypuff is a small, round, pink Pok\u00e9mon with large, blue eyes and stubby arms and legs",
+      "Jigglypuff is a small, round, pink Pokemon with large, blue eyes and stubby arms and legs",
       "It has a curled tuft of fur on its forehead and a wide, smiley mouth",
       "Jigglypuff's body is covered in soft, marshmallow-like skin that allows it to inflate itself",
       "It has small, pointy ears and its feet have tiny, pinkish-brown pads",
@@ -597,7 +597,7 @@
   {
     "tag": "Wigglytuff",
     "patterns": [
-      "Wigglytuff is a round, fairy-type Pok\u00e9mon with a pink body and long, rabbit-like ears",
+      "Wigglytuff is a round, fairy-type Pokemon with a pink body and long, rabbit-like ears",
       "Its body is covered in soft, fluffy fur and it has a stubby, puffy tail",
       "Wigglytuff's eyes are large and black, giving it an innocent and playful expression",
       "It has small, stubby arms and short legs",
@@ -614,7 +614,7 @@
   {
     "tag": "Zubat",
     "patterns": [
-      "Zubat is a small, bat-like Pok\u00e9mon that has blue skin",
+      "Zubat is a small, bat-like Pokemon that has blue skin",
       "It has a wingspan of over 2 feet and its head resembles that of a bat",
       "Zubat has large, round eyes with tiny pupils and a yellow mouth with sharp fangs",
       "On its back, it has two short, stubby legs that are not strong enough to support its weight",
@@ -629,7 +629,7 @@
   {
     "tag": "Golbat",
     "patterns": [
-      "Golbat is a large, bat-like Pok\u00e9mon with purple skin and a wingspan of nearly six feet",
+      "Golbat is a large, bat-like Pokemon with purple skin and a wingspan of nearly six feet",
       "It has long, pointy ears and large, fang-like teeth that protrude from its mouth",
       "Golbat has menacing, red eyes and a prominent, round nose",
       "The fur on its chest is particularly thick and shaggy",
@@ -643,7 +643,7 @@
   {
     "tag": "Oddish",
     "patterns": [
-      "Small, grass-type Pok\u00e9mon that resembles a blue plant bulb with feet and leaves",
+      "Small, grass-type Pokemon that resembles a blue plant bulb with feet and leaves",
       "It has beady red eyes and a cute smile on its face",
       "Oddish has two leaves on its head that resemble antennae",
       "Its body is a light bluish-green color, and it has a round, pudgy shape",
@@ -657,7 +657,7 @@
   {
     "tag": "Gloom",
     "patterns": [
-      "Gloom is a grass and poison-type Pok\u00e9mon from the first generation",
+      "Gloom is a grass and poison-type Pokemon from the first generation",
       "It has a droopy appearance with a round body and a large head",
       "Gloom has glossy, blue-green leaves growing out of the top of its head",
       "Its eyes are large and red, giving off an unsettling and dreary look",
@@ -676,7 +676,7 @@
   {
     "tag": "Vileplume",
     "patterns": [
-      "Vileplume is a large, plant-like Pok\u00e9mon with a round, mushroom-like body",
+      "Vileplume is a large, plant-like Pokemon with a round, mushroom-like body",
       "It has a light pink, petal-shaped head with a bright yellow center",
       "Vileplume's body is mostly green with several dark green spots and patches",
       "It has two thin green arms with small, claw-like fingers",
@@ -693,7 +693,7 @@
   {
     "tag": "Paras",
     "patterns": [
-      "small, insect-like Pok\u00e9mon with a mushroom-like protrusion on its back",
+      "small, insect-like Pokemon with a mushroom-like protrusion on its back",
       "Its body is primarily brown, with four short legs",
       "The mushroom on its back is yellow with red speckles",
       "It has two large, round eyes and a pair of small pincers",
@@ -710,7 +710,7 @@
   {
     "tag": "Parasect",
     "patterns": [
-      "Parasect is a large bug-like Pok\u00e9mon that has a peculiar appearance",
+      "Parasect is a large bug-like Pokemon that has a peculiar appearance",
       "It has a round body with a segmented exoskeleton that is mostly gray in color",
       "Its four legs are thin and end in sharp claws, allowing it to cling to tree trunks",
       "The most remarkable feature of Parasect is its mushroom-like growth on its back",
@@ -726,7 +726,7 @@
   {
     "tag": "Venonat",
     "patterns": [
-      "Venonat is a small, bug-like Pok\u00e9mon covered in purple fur",
+      "Venonat is a small, bug-like Pokemon covered in purple fur",
       "It has large, round, red eyes and a pair of antennae on its head",
       "Venonat has six legs and furry paws",
       "Its body is mostly fluffy, with a slightly fuzzy appearance",
@@ -744,7 +744,7 @@
   {
     "tag": "Venomoth",
     "patterns": [
-      "Venomoth is a large, insect-like Pok\u00e9mon with six legs and a bulbous body",
+      "Venomoth is a large, insect-like Pokemon with six legs and a bulbous body",
       "It has a purple coloration with several blue and black markings throughout its body",
       "Venomoth has large red compound eyes and two long, thin antennae",
       "Its wings are covered in a dusty purple powder, giving them a shimmering appearance",
@@ -758,7 +758,7 @@
   {
     "tag": "Diglett",
     "patterns": [
-      "Diglett is a small, mole-like Pok\u00e9mon that is mostly found underground",
+      "Diglett is a small, mole-like Pokemon that is mostly found underground",
       "It has a rounded body covered in brown skin, and its eyes are barely visible",
       "Its most distinctive feature is its large, rounded nose that protrudes from the ground",
       "The nose is a pale pink color and has a circular mouth with two small teeth",
@@ -772,14 +772,14 @@
   {
     "tag": "Dugtrio",
     "patterns": [
-      "Dugtrio is a ground type Pok\u00e9mon known for its unique appearance",
-      "It consists of three small, brown mole-like Pok\u00e9mon that are connected to each other underground",
+      "Dugtrio is a ground type Pokemon known for its unique appearance",
+      "It consists of three small, brown mole-like Pokemon that are connected to each other underground",
       "Each individual has a rounded head with large, triangular ears",
       "They lack a neck and their bodies are cylindrical and tubular in shape",
       "Dugtrio has small, black eyes that are barely visible, giving it an intense and focused look",
       "Its short arms are positioned closer to the front of its body",
       "It has long, clawed fingers which are useful for digging through soil and creating tunnels",
-      "The Pok\u00e9mon's main distinguishing feature is its distinct spiky hairstyle, resembling a crown or a mohawk",
+      "The Pokemon's main distinguishing feature is its distinct spiky hairstyle, resembling a crown or a mohawk",
       "The hairs on its head are a pale golden color, adding to its unique appearance",
       "Dugtrio"
     ],
@@ -790,7 +790,7 @@
   {
     "tag": "Meowth",
     "patterns": [
-      "Meowth is a small, cat-like Pok\u00e9mon with cream-colored fur",
+      "Meowth is a small, cat-like Pokemon with cream-colored fur",
       "It has short arms and legs, and a long, luxurious tail",
       "Its head is round with large, wide-set eyes and a small, black nose",
       "Meowth's fur is marked with dark brown stripes on its forehead, back, and the tip of its tail",
@@ -807,7 +807,7 @@
   {
     "tag": "Persian",
     "patterns": [
-      "A slender, feline Pok\u00e9mon with long, purple fur and a round face",
+      "A slender, feline Pokemon with long, purple fur and a round face",
       "It has almond-shaped eyes, long whiskers, and a small, red jewel on its forehead",
       "Its ears are short and pointed, and it has a thick, luxurious tail",
       "Persian's body is covered in smooth, silky fur that shimmers in the light",
@@ -822,7 +822,7 @@
   {
     "tag": "Psyduck",
     "patterns": [
-      "Psyduck is a small, duck-like Pok\u00e9mon that stands on two legs",
+      "Psyduck is a small, duck-like Pokemon that stands on two legs",
       "Its body is mostly yellow with a cream-colored underside",
       "It has a round head with a short, broad beak, and large, vacant eyes",
       "Its eyes are usually vacant and blank, but they become intense and fiery when Psyduck experiences a headache",
@@ -839,7 +839,7 @@
   {
     "tag": "Golduck",
     "patterns": [
-      "Golduck is a medium-sized, bipedal Pok\u00e9mon that resembles a duck in appearance",
+      "Golduck is a medium-sized, bipedal Pokemon that resembles a duck in appearance",
       "It has a round, blue body with a cream-colored chest and underside",
       "Golduck has webbed hands and feet, each with three fingers and striped, yellow webbing",
       "Its eyes are red and located on the sides of its head, and it has a yellow, beak-like mouth",
@@ -854,11 +854,11 @@
   {
     "tag": "Mankey",
     "patterns": [
-      "Mankey is a small, bipedal Pok\u00e9mon that is primarily a light brown color",
+      "Mankey is a small, bipedal Pokemon that is primarily a light brown color",
       "It has a round, red face, a snub nose, and triangular ears with brown tips",
       "Mankey has a long tail with a conical shape at the end",
       "Its hands and feet have three digits each, and its fingers and toes are all black",
-      "This Pok\u00e9mon is known for its incredibly short temper and aggressive nature",
+      "This Pokemon is known for its incredibly short temper and aggressive nature",
       "It often screeches loudly to communicate its feelings",
       "Mankey's appearance gives off a wild and untamed vibe",
       "Its fierce expression and physical build make it look ready for battle",
@@ -871,7 +871,7 @@
   {
     "tag": "Primeape",
     "patterns": [
-      "Primeape is a medium-sized, bipedal Pok\u00e9mon that resembles a primate",
+      "Primeape is a medium-sized, bipedal Pokemon that resembles a primate",
       "It has a mostly purple body with a tan-colored belly, hands, and feet",
       "Its arms have three thick, non-retractable claws, and its legs have two claws each",
       "Primeape has a long, rat-like tail that tapers at the end",
@@ -887,7 +887,7 @@
   {
     "tag": "Growlithe",
     "patterns": [
-      "Growlithe is a small, quadrupedal Pok\u00e9mon that resembles a puppy",
+      "Growlithe is a small, quadrupedal Pokemon that resembles a puppy",
       "It has orange fur with black stripes along its back and tail",
       "The fur on its face and chest is cream-colored",
       "It has a short, rounded muzzle with a small, black nose",
@@ -905,14 +905,14 @@
   {
     "tag": "Arcanine",
     "patterns": [
-      "Large, majestic Pok\u00e9mon that resembles a lion",
+      "Large, majestic Pokemon that resembles a lion",
       "It has a long, flowing mane and a proud, regal posture",
       "Its fur is a vibrant orange color, with black stripes on its back and legs",
       "Arcanine has a sturdy and muscular build, giving it a powerful and imposing presence",
       "It has a pair of sharp, pointed ears and its eyes radiate an intense sense of strength",
       "The flame on its tail burns bright, showcasing its fiery nature",
       "Arcanine's paws are strong and capable, allowing it to run at incredible speeds",
-      "Its loyalty and bravery are legendary, making it a highly respected Pok\u00e9mon",
+      "Its loyalty and bravery are legendary, making it a highly respected Pokemon",
       "Arcanine"
     ],
     "responses": [
@@ -922,7 +922,7 @@
   {
     "tag": "Poliwag",
     "patterns": [
-      "Poliwag is a small, blue Pok\u00e9mon with a round body and a large head",
+      "Poliwag is a small, blue Pokemon with a round body and a large head",
       "It has large, round eyes and a wide mouth with pink lips",
       "On its abdomen, there is a white, swirling pattern that resembles a whirlpool",
       "Poliwag's skin is very slippery, allowing it to escape from enemies easily",
@@ -937,7 +937,7 @@
   {
     "tag": "Poliwhirl",
     "patterns": [
-      "Poliwhirl is a medium-sized, blue frog-like Pok\u00e9mon",
+      "Poliwhirl is a medium-sized, blue frog-like Pokemon",
       "Its body is round and has a white belly",
       "Its skin is moist and slippery, allowing it to escape from predators",
       "Poliwhirl has large, round eyes and a wide smile",
@@ -956,7 +956,7 @@
   {
     "tag": "Poliwrath",
     "patterns": [
-      "Poliwrath is a large, muscular amphibious Pok\u00e9mon",
+      "Poliwrath is a large, muscular amphibious Pokemon",
       "It has a blue body that is covered in a thin layer of white skin",
       "Its head has a round shape with large, bulging eyes and a wide mouth",
       "On top of its head, there are three crest-like extensions",
@@ -976,7 +976,7 @@
   {
     "tag": "Abra",
     "patterns": [
-      "Abra is a small, psychic-type Pok\u00e9mon known for its unique appearance",
+      "Abra is a small, psychic-type Pokemon known for its unique appearance",
       "It has a humanoid body with primarily yellow coloration",
       "The top of its head is dark brown, and it has a wide, round snout",
       "Abra's eyes are always closed, giving it a dreamy and mysterious appearance",
@@ -992,7 +992,7 @@
   {
     "tag": "Kadabra",
     "patterns": [
-      "Kadabra is a medium-sized, humanoid Pok\u00e9mon with a primarily yellow body",
+      "Kadabra is a medium-sized, humanoid Pokemon with a primarily yellow body",
       "It has long, pointed ears and a thin, mustache-like feature on its face",
       "Kadabra's eyes are deep-set and have a yellow sclera with a small, black pupil",
       "Its arms are long and slender with three fingers on each hand",
@@ -1009,13 +1009,13 @@
   {
     "tag": "Alakazam",
     "patterns": [
-      "Alakazam is a psychic-type Pok\u00e9mon known for its humanoid appearance",
+      "Alakazam is a psychic-type Pokemon known for its humanoid appearance",
       "It has a sleek body with a predominantly brown coloration",
       "Alakazam has a large, round head with a pointed white beard on its chin",
       "Its eyes are small and yellow, and it has a pair of long, thin ears",
       "The most iconic feature of Alakazam is the two spoons it holds in its hands",
       "These spoons are said to amplify its psychic powers",
-      "The Pok\u00e9mon is also known for its high intelligence and IQ",
+      "The Pokemon is also known for its high intelligence and IQ",
       "Its overall appearance gives off a mystical and wise aura",
       "Alakazam"
     ],
@@ -1026,7 +1026,7 @@
   {
     "tag": "Machop",
     "patterns": [
-      "Machop is a humanoid Pok\u00e9mon with a muscular build and bluish gray skin",
+      "Machop is a humanoid Pokemon with a muscular build and bluish gray skin",
       "It has three fingers on each hand and muscular legs with a small, round foot",
       "Its head has a triangular crest and a short snout with a wide mouth",
       "Machop's eyes are wide and orange, and it has a large, round nose",
@@ -1041,13 +1041,13 @@
   {
     "tag": "Machoke",
     "patterns": [
-      "Machoke is a large, muscular Pok\u00e9mon with bluish-gray skin",
+      "Machoke is a large, muscular Pokemon with bluish-gray skin",
       "It has large muscles on its arms, chest, and shoulders",
       "Its arms have three thick, protruding veins and end in three-fingered hands",
       "It has a short, stubby tail and a round, tube-like neck",
       "Machoke's face is grimacing with wide eyes and a wide mouth",
       "It has a belt-like structure across its waist, resembling a weightlifting belt",
-      "The Pok\u00e9mon's feet have three toes and circular, gray soles",
+      "The Pokemon's feet have three toes and circular, gray soles",
       "Machoke"
     ],
     "responses": [
@@ -1057,7 +1057,7 @@
   {
     "tag": "Machamp",
     "patterns": [
-      "a large, humanoid Pok\u00e9mon with a muscular build",
+      "a large, humanoid Pokemon with a muscular build",
       "It has four arms, each connected to a well-defined, sculpted shoulder",
       "Its skin tone is bluish gray, and it has a face resembling that of a human",
       "Machamp has red eyes with vertical slit pupils and a large, round snout",
@@ -1075,7 +1075,7 @@
   {
     "tag": "Bellsprout",
     "patterns": [
-      "Bellsprout is a plant-like Pok\u00e9mon with a thin, green body",
+      "Bellsprout is a plant-like Pokemon with a thin, green body",
       "It has long, vine-like arms and a small, round head",
       "Its head has two red eyes and a wide, toothy grin",
       "The top of its head is adorned with a large, green leaf",
@@ -1090,7 +1090,7 @@
   {
     "tag": "Weepinbell",
     "patterns": [
-      "Weepinbell is a grass/poison-type Pok\u00e9mon from the first generation",
+      "Weepinbell is a grass/poison-type Pokemon from the first generation",
       "It resembles a green, plant-like bell with sharp teeth",
       "The bell has two pink lips on the inside and a long, vine-like appendage that grows from its back",
       "It also has two stubby, clawed arms that it uses to catch prey",
@@ -1105,7 +1105,7 @@
   {
     "tag": "Victreebel",
     "patterns": [
-      "Victreebel is a large, carnivorous Pok\u00e9mon that resembles a plant",
+      "Victreebel is a large, carnivorous Pokemon that resembles a plant",
       "It has a bell-shaped body with a gaping mouth filled with sharp teeth",
       "Its body is primarily a light green color with darker green markings",
       "Victreebel has several vine-like appendages on its back, which it uses to ensnare prey",
@@ -1119,7 +1119,7 @@
   {
     "tag": "Tentacool",
     "patterns": [
-      "Tentacool is a small, jellyfish-like Pok\u00e9mon with a blue body and clear bell-shaped head",
+      "Tentacool is a small, jellyfish-like Pokemon with a blue body and clear bell-shaped head",
       "It has two large, round eyes and a tiny mouth",
       "On top of its head are two long, thin tentacles that trail behind it",
       "It has a cluster of pinkish-red orbs on its lower body",
@@ -1134,7 +1134,7 @@
   {
     "tag": "Geodude",
     "patterns": [
-      "Geodude is a small, rocky Pok\u00e9mon that resembles a boulder with arms",
+      "Geodude is a small, rocky Pokemon that resembles a boulder with arms",
       "It has a spherical body with brown rock-like skin and a set of stubby arms",
       "Its face has a large, single eye that is usually closed",
       "Geodude's body is covered in rough, jagged rocks and it has a small, flat nose",
@@ -1148,16 +1148,16 @@
   {
     "tag": "Graveler",
     "patterns": [
-      "Graveler is a large, rock-type Pok\u00e9mon that resembles a boulder",
+      "Graveler is a large, rock-type Pokemon that resembles a boulder",
       "It has a rough, rocky exterior with multiple limbs sticking out",
       "Its body is covered in a layer of grayish-brown rock-like skin",
       "The skin is uneven and has several cracks and crevices",
       "Graveler has four short, stubby legs that allow it to move around",
       "It has round, black eyes that give it a determined expression",
-      "The Pok\u00e9mon also has two large, round arms with powerful muscles",
+      "The Pokemon also has two large, round arms with powerful muscles",
       "Graveler has a round, bulbous head with a wide mouth and no visible nose",
       "On top of its head are two large boulders that resemble ears",
-      "The Pok\u00e9mon's lower jaw has a row of sharp, jagged teeth",
+      "The Pokemon's lower jaw has a row of sharp, jagged teeth",
       "Its back is covered in a series of sharp, pointed rocks",
       "Graveler also has a thick, muscular tail that ends in a boulder-like appendage",
       "Overall, Graveler gives off a heavy, sturdy and rugged appearance",
@@ -1170,7 +1170,7 @@
   {
     "tag": "Golem",
     "patterns": [
-      "Golem is a large, quadrupedal Pok\u00e9mon covered in dark brown, rocky plates",
+      "Golem is a large, quadrupedal Pokemon covered in dark brown, rocky plates",
       "It has a sturdy, armored body and is known for its immense strength",
       "Golem has a round, boulder-like head with a blunt snout and large, red eyes",
       "On its back are several pointed, rocky protrusions",
@@ -1187,7 +1187,7 @@
   {
     "tag": "Ponyta",
     "patterns": [
-      "Ponyta is a small, elegant Pok\u00e9mon resembling a horse",
+      "Ponyta is a small, elegant Pokemon resembling a horse",
       "It has a slender body covered in cream-colored fur",
       "Ponyta has a mane and tail of fiery orange flames",
       "Its eyes are large and shiny, and it has a gentle expression",
@@ -1201,7 +1201,7 @@
   {
     "tag": "Rapidash",
     "patterns": [
-      "Rapidash is a beautiful, horse-like Pok\u00e9mon known for its elegant appearance",
+      "Rapidash is a beautiful, horse-like Pokemon known for its elegant appearance",
       "It has a cream-colored body with a flowing, fiery mane",
       "Its long legs are slender and agile, allowing it to move swiftly",
       "Rapidash has a white horn on its forehead, which is said to emit a fiery aura",
@@ -1216,7 +1216,7 @@
   {
     "tag": "Slowpoke",
     "patterns": [
-      "Slowpoke is a pink, quadrupedal Pok\u00e9mon with a long, tapering tail",
+      "Slowpoke is a pink, quadrupedal Pokemon with a long, tapering tail",
       "Its body is covered in light purple skin, which is extremely thick and resistant to most physical strikes",
       "It has a simple, vacant expression on its face and its eyes are usually half-closed",
       "Slowpoke has a rounded snout and small, pointed ears",
@@ -1232,7 +1232,7 @@
   {
     "tag": "Slowbro",
     "patterns": [
-      "Slowbro is a large, bipedal Pok\u00e9mon that resembles a cross between a turtle and a hermit crab",
+      "Slowbro is a large, bipedal Pokemon that resembles a cross between a turtle and a hermit crab",
       "It has a pink body with a cream-colored underside and a long, curved tail",
       "The most distinctive feature of Slowbro is the shelter it carries on its tail",
       "The shelter is actually a Shellder that latches onto Slowbro's tail and becomes a part of its body",
@@ -1250,12 +1250,12 @@
   {
     "tag": "Magnemite",
     "patterns": [
-      "Magnemite is a small, round Pok\u00e9mon that resembles a metallic screw with two small magnets on each side",
+      "Magnemite is a small, round Pokemon that resembles a metallic screw with two small magnets on each side",
       "It has a silver-gray body with a single eye in the center and a black, triangular mouth",
       "Magnemite hovers in the air by emitting strong magnetic forces from its magnets",
       "The magnets on its sides are strong enough to draw in and attach to metal objects",
       "It has a pair of horseshoe-shaped magnets on its underside, which help it cling to metal surfaces",
-      "When two Magnemite meet, they connect and create a larger Pok\u00e9mon called Magneton",
+      "When two Magnemite meet, they connect and create a larger Pokemon called Magneton",
       "Magnemite"
     ],
     "responses": [
@@ -1265,16 +1265,16 @@
   {
     "tag": "Magneton",
     "patterns": [
-      "Magneton is a Pok\u00e9mon formed by three Magnemite joined together",
+      "Magneton is a Pokemon formed by three Magnemite joined together",
       "It has a round, metallic body with silver color and a single eye on each magnet",
       "The magnets have a black and yellow stripe pattern, giving them a unique appearance",
       "It possesses three powerful magnets and uses electromagnetic waves to communicate",
-      "The magnetic force generated by this Pok\u00e9mon is so strong, it can make a 10,000 horsepower magnet",
+      "The magnetic force generated by this Pokemon is so strong, it can make a 10,000 horsepower magnet",
       "Its magnets emit a powerful magnetic force that disrupts electrical equipment",
       "Its metallic body can become extremely hot during periods of strong magnetic activity",
       "Magneton has the ability to levitate and can move freely without making contact with the ground",
       "When facing danger, it can use its magnets to generate a magnetic field that repels opponents",
-      "This Pok\u00e9mon is often found near power plants and other areas with electromagnetic fields",
+      "This Pokemon is often found near power plants and other areas with electromagnetic fields",
       "Magneton"
     ],
     "responses": [
@@ -1284,7 +1284,7 @@
   {
     "tag": "Farfetch'd",
     "patterns": [
-      "Farfetch'd is a small, bird-like Pok\u00e9mon",
+      "Farfetch'd is a small, bird-like Pokemon",
       "It has a brown body with white underbelly",
       "Its head is predominantly white with a brown patch on its forehead",
       "Farfetch'd has a long, thin, green leek stalk in place of a regular tail",
@@ -1298,12 +1298,12 @@
   {
     "tag": "Doduo",
     "patterns": [
-      "Doduo is a dual-type Normal/Flying Pok\u00e9mon",
+      "Doduo is a dual-type Normal/Flying Pokemon",
       "It resembles a two-headed, flightless bird",
       "It has a long neck, a beak on each head, and a fluffy brown body",
       "Doduo has two heads, each with a large eye and a short crest on top",
       "Its wings are small and vestigial, making it incapable of flight",
-      "The Pok\u00e9mon has a long, thin, light brown neck",
+      "The Pokemon has a long, thin, light brown neck",
       "Its wings are too tiny to allow it to fly",
       "Doduo has two powerful legs that allow it to run at high speeds",
       "It is known for its incredible running speed and stamina",
@@ -1318,7 +1318,7 @@
   {
     "tag": "Dodrio",
     "patterns": [
-      "Dodrio is a bird-like Pok\u00e9mon with a tall, slender body and a large, round head",
+      "Dodrio is a bird-like Pokemon with a tall, slender body and a large, round head",
       "It has two long necks, each topped with a sharp beak",
       "Its body is covered in brown feathers, while its three heads are covered in white feathers",
       "Dodrio has two legs, each with three toes and sharp claws",
@@ -1333,7 +1333,7 @@
   {
     "tag": "Seel",
     "patterns": [
-      "Seel is a small, aquatic Pok\u00e9mon that resembles a seal",
+      "Seel is a small, aquatic Pokemon that resembles a seal",
       "It has a round body covered in smooth, bluish-white fur",
       "Seel has a small head with large, oval-shaped eyes and a small, black nose",
       "Its front flippers are short, while its hind flippers are long and powerful for swimming",
@@ -1348,7 +1348,7 @@
   {
     "tag": "Dewgong",
     "patterns": [
-      "Dewgong is a large marine mammal Pok\u00e9mon that resembles a seal",
+      "Dewgong is a large marine mammal Pokemon that resembles a seal",
       "It has a thick bluish-white fur that helps insulate against freezing temperatures",
       "Dewgong has a long, sleek body with a tapered tail and small flippers",
       "Its head has large black eyes, a short snout, and a small black nose",
@@ -1364,7 +1364,7 @@
   {
     "tag": "Grimer",
     "patterns": [
-      "Purple, amorphous Pok\u00e9mon covered in a thick, oily sludge",
+      "Purple, amorphous Pokemon covered in a thick, oily sludge",
       "It has bright, yellow eyes with beady pupils and a wide grin",
       "Its body is lumpy and shapeless, and it oozes a toxic, foul-smelling liquid",
       "Grimer has a large mouth with sharp teeth and slimy tentacles emerging from its body",
@@ -1379,7 +1379,7 @@
   {
     "tag": "Muk",
     "patterns": [
-      "large, amorphous Pok\u00e9mon that appears to be made entirely of purple sludge",
+      "large, amorphous Pokemon that appears to be made entirely of purple sludge",
       "It has a mound-like shape with a grayish face and beady black eyes",
       "Its body is covered in a toxic substance that gives off a foul odor",
       "Muk's sludge can be extremely corrosive and can dissolve anything it touches",
@@ -1394,7 +1394,7 @@
   {
     "tag": "Shellder",
     "patterns": [
-      "Shellder is a small bivalve Pok\u00e9mon with a hard, blue shell",
+      "Shellder is a small bivalve Pokemon with a hard, blue shell",
       "It has a large, round, dark blue head with a pair of black eyes and a pink tongue",
       "The shell on its back is covered in spikes and has a hinge at the front",
       "Its body is mostly hidden inside the shell, but it has two small, orange feet protruding",
@@ -1408,7 +1408,7 @@
   {
     "tag": "Cloyster",
     "patterns": [
-      "Cloyster is a dual-type Water/Ice Pok\u00e9mon with a unique and interesting appearance.",
+      "Cloyster is a dual-type Water/Ice Pokemon with a unique and interesting appearance.",
       "It has a shell-like body that is primarily a pale purple color.",
       "The shell is extremely hard and durable, providing excellent protection.",
       "Cloyster has a long neck that protrudes from the top of its shell, with a small head at the end.",
@@ -1416,7 +1416,7 @@
       "The creature has a set of powerful and sharp tentacles that extend from its base.",
       "These tentacles are primarily a grayish-blue color with spikes on the ends.",
       "Its lower body is covered in a rough, rocky texture that helps it anchor to rocks and cliffs.",
-      "Overall, Cloyster has a distinct yet formidable appearance, making it stand out among other Pok\u00e9mon.",
+      "Overall, Cloyster has a distinct yet formidable appearance, making it stand out among other Pokemon.",
       "Cloyster"
     ],
     "responses": [
@@ -1426,7 +1426,7 @@
   {
     "tag": "Gastly",
     "patterns": [
-      "Gastly is a ghostly and gaseous Pok\u00e9mon that is mostly black in color",
+      "Gastly is a ghostly and gaseous Pokemon that is mostly black in color",
       "It has large, round eyes and a wide, creepy grin",
       "Gastly's body is composed of a toxic gas, which gives it a smoky appearance",
       "It is usually seen floating in the air, with its lower body dissipating into a cloud of mist",
@@ -1441,12 +1441,12 @@
   {
     "tag": "Haunter",
     "patterns": [
-      "Haunter is a dark purple Pok\u00e9mon with a gaseous body",
+      "Haunter is a dark purple Pokemon with a gaseous body",
       "It has a round head with a wide, toothy grin and stubby arms",
       "The tips of its hands have a shadowy, claw-like appearance",
       "Haunter has large, triangular eyes with narrow, reddish pupils",
       "It has a long, tapering tail that is predominantly ghostly and has a spherical shape at the end",
-      "This Pok\u00e9mon emits a sinister energy and is often seen enveloping its prey in the shadowy haze it creates",
+      "This Pokemon emits a sinister energy and is often seen enveloping its prey in the shadowy haze it creates",
       "Haunter"
     ],
     "responses": [
@@ -1456,7 +1456,7 @@
   {
     "tag": "Onix",
     "patterns": [
-      "massive, rock snake-like Pok\u00e9mon that has a grayish-black body made up of large boulders",
+      "massive, rock snake-like Pokemon that has a grayish-black body made up of large boulders",
       "It has a long, serpentine body with a ridge of rocky spines running along its back",
       "Its head is arrowhead-shaped with a pair of sharp, rocky horns on the top",
       "The ends of its tail are made up of larger, jagged rocks",
@@ -1470,8 +1470,8 @@
   {
     "tag": "Drowzee",
     "patterns": [
-      "Drowzee is a species of Pok\u00e9mon in the shape of a tapir",
-      "It is a bipedal Pok\u00e9mon with a yellow body covered in brown fur",
+      "Drowzee is a species of Pokemon in the shape of a tapir",
+      "It is a bipedal Pokemon with a yellow body covered in brown fur",
       "Drowzee has rounded ears, a small trunk-like snout, and a big round pink nose",
       "Its eyes are also round and black, giving it a sleepy appearance",
       "It has two small feet with three toes on each foot",
@@ -1487,7 +1487,7 @@
   {
     "tag": "Hypno",
     "patterns": [
-      "Hypno is a Pok\u00e9mon that resembles a humanoid with a hypnotic appearance",
+      "Hypno is a Pokemon that resembles a humanoid with a hypnotic appearance",
       "It has a yellow body with a fat belly and skinny arms and legs",
       "Hypno has a round head with a large nose, pointy ears, and narrow eyes with concentric circles",
       "Its primary feature is the pendulum it carries, which it swings to hypnotize others",
@@ -1505,7 +1505,7 @@
   {
     "tag": "Krabby",
     "patterns": [
-      "Krabby is a small, crustacean-like Pok\u00e9mon",
+      "Krabby is a small, crustacean-like Pokemon",
       "It has a round body covered in a tough exoskeleton that is reddish-brown in color",
       "Its large pincers are blue and have a jagged, spiky appearance",
       "Krabby's eyes are small and round, with a determined expression",
@@ -1520,7 +1520,7 @@
   {
     "tag": "Kingler",
     "patterns": [
-      "Kingler is a large, crustacean-like Pok\u00e9mon with a strong, armored exoskeleton",
+      "Kingler is a large, crustacean-like Pokemon with a strong, armored exoskeleton",
       "Its body is mainly red with a vibrant orange underside",
       "It has a pair of large, powerful pincers that it uses for both offense and defense",
       "The pincers are tipped with bright white, sharp claws",
@@ -1537,7 +1537,7 @@
   {
     "tag": "Voltorb",
     "patterns": [
-      "Voltorb is a round, spherical Pok\u00e9mon that resembles a Pok\u00e9 Ball",
+      "Voltorb is a round, spherical Pokemon that resembles a Poke Ball",
       "It is mainly white with a red top and a white 'button' on the bottom",
       "Two small triangular eyes and a mouth-like slit are located on the red 'top' part of its face",
       "Voltorb does not have any visible limbs and appears to be completely hollow",
@@ -1551,7 +1551,7 @@
   {
     "tag": "Electrode",
     "patterns": [
-      "Electrode is a round, ball-like Pok\u00e9mon with a metallic silver body",
+      "Electrode is a round, ball-like Pokemon with a metallic silver body",
       "It has a white face with a wide grin and oval-shaped eyes that are usually closed",
       "There are two small, round, blue or black eyes visible on its white face",
       "Electrode's body is divided into two halves, the top half is a white color and the bottom half is a dark gray color",
@@ -1566,7 +1566,7 @@
   {
     "tag": "Exeggcute",
     "patterns": [
-      "Exeggcute is a small Pok\u00e9mon that resembles a cluster of six white eggs",
+      "Exeggcute is a small Pokemon that resembles a cluster of six white eggs",
       "Each egg has a face-like pattern on it, with small black eyes and a small pink mouth",
       "The eggs are connected by a thick green stem that acts as Exeggcute's body",
       "It has two pink feet at the bottom of the stem",
@@ -1581,7 +1581,7 @@
   {
     "tag": "Exeggutor",
     "patterns": [
-      "Exeggutor is a tall, palm tree-like Pok\u00e9mon with a long neck and a coconut-like head",
+      "Exeggutor is a tall, palm tree-like Pokemon with a long neck and a coconut-like head",
       "Its body is light yellow with light green leaves covering its neck and back",
       "Exeggutor has a brown trunk-like body with stubby, stubby legs",
       "The coconut-like heads on its neck have sleepy-looking eyes and large, round mouths",
@@ -1596,7 +1596,7 @@
   {
     "tag": "Cubone",
     "patterns": [
-      "Cubone is a small, ground-dwelling Pok\u00e9mon that is primarily brown in color",
+      "Cubone is a small, ground-dwelling Pokemon that is primarily brown in color",
       "Its body is covered in tough armor-like skin, which protects it from predators",
       "It has a skull helmet on its head, which it never removes",
       "The skull helmet is believed to be the skull of its deceased mother",
@@ -1612,7 +1612,7 @@
   {
     "tag": "Marowak",
     "patterns": [
-      "Marowak is a medium-sized Pok\u00e9mon that resembles a dinosaur",
+      "Marowak is a medium-sized Pokemon that resembles a dinosaur",
       "It has a brown body with a cream-colored belly",
       "Its head is large and has a thick bone-like helmet on top of it",
       "The helmet has a spiked ridge on the back and covers Marowak's face, leaving only its eyes visible",
@@ -1629,12 +1629,12 @@
   {
     "tag": "Hitmonlee",
     "patterns": [
-      "Tall, lean, and humanoid Pok\u00e9mon known as Hitmonlee",
+      "Tall, lean, and humanoid Pokemon known as Hitmonlee",
       "It has a brownish-gray body with long, powerful legs and small arms",
       "Its head is round with a flattened top and a small, pointed snout",
       "Hitmonlee has a pair of large, round eyes and broad eyebrows",
       "Its lower body is covered in white bandages, resembling leg wrappings",
-      "The Pok\u00e9mon's feet are bare, and its toes are long and clawed",
+      "The Pokemon's feet are bare, and its toes are long and clawed",
       "Hitmonlee is known for its remarkable kicking abilities and agility",
       "Its legs can stretch and bend freely, allowing it to unleash powerful strikes",
       "Overall, Hitmonlee possesses a dynamic and athletic appearance",
@@ -1647,12 +1647,12 @@
   {
     "tag": "Hitmonchan",
     "patterns": [
-      "Hitmonchan is a humanoid Pok\u00e9mon that has a muscular build",
+      "Hitmonchan is a humanoid Pokemon that has a muscular build",
       "It has a light brown skin and wears a light blue tunic with a black belt",
       "Its arms are covered in protective padding, resembling boxing gloves",
       "Hitmonchan's head is round with a short, blunt snout and large eyes",
       "It has a small, triangular-shaped mouth and circular ears",
-      "This Pok\u00e9mon has a red marking on its chest that resembles a belt buckle",
+      "This Pokemon has a red marking on its chest that resembles a belt buckle",
       "Hitmonchan"
     ],
     "responses": [
@@ -1662,7 +1662,7 @@
   {
     "tag": "Lickitung",
     "patterns": [
-      "Lickitung is a large, pink Pok\u00e9mon with a long, round tongue",
+      "Lickitung is a large, pink Pokemon with a long, round tongue",
       "It has small, round eyes and a wide mouth with a red tongue sticking out",
       "Its body has a thick, rubbery skin and is covered in tiny bumps",
       "Lickitung's arms are short and stubby, and it has a short, stubby tail as well",
@@ -1677,7 +1677,7 @@
   {
     "tag": "Koffing",
     "patterns": [
-      "Koffing is a round, balloon-like Pok\u00e9mon covered in toxic purple gases",
+      "Koffing is a round, balloon-like Pokemon covered in toxic purple gases",
       "It has a skull and crossbones symbol on its face, representing its poisonous nature",
       "Its body is mostly smoky gray, with a thin, white crescent shape on its belly",
       "Koffing has two small, round feet and stubby arms",
@@ -1692,7 +1692,7 @@
   {
     "tag": "Weezing",
     "patterns": [
-      "Weezing is a large, purple Pok\u00e9mon with two spherical bodies connected by a thin, purple stripe",
+      "Weezing is a large, purple Pokemon with two spherical bodies connected by a thin, purple stripe",
       "It has two large eyes with red irises and a wide grin",
       "The heads have differing sizes and are both covered in spiky growths",
       "It has two long, curled horns on top of each head, and two small, pointed teeth in the upper jaw",
@@ -1708,7 +1708,7 @@
   {
     "tag": "Rhyhorn",
     "patterns": [
-      "Rhyhorn is a large, rhinoceros-like Pok\u00e9mon covered in tough, gray, rocky skin",
+      "Rhyhorn is a large, rhinoceros-like Pokemon covered in tough, gray, rocky skin",
       "It has a long, sharp horn on its forehead and a row of spines down its back",
       "Its feet have three clawed toes, and it has a short tail",
       "Rhyhorn's eyes are small and red, and it has a wide, gaping mouth",
@@ -1722,7 +1722,7 @@
   {
     "tag": "Rhydon",
     "patterns": [
-      "Rhydon is a large, dinosaur-like Pok\u00e9mon covered in grayish-blue armor-like skin",
+      "Rhydon is a large, dinosaur-like Pokemon covered in grayish-blue armor-like skin",
       "It has a long, pointed horn on its nose and a ridge of spikes running down its back",
       "Its tail is short and stubby, and its limbs are thick and muscular",
       "Rhydon has a cream-colored underbelly and two prominent, upward-pointing tusks on its lower jaw",
@@ -1738,7 +1738,7 @@
   {
     "tag": "Chansey",
     "patterns": [
-      "Chansey is a pink, egg-shaped Pok\u00e9mon with stubby arms and legs",
+      "Chansey is a pink, egg-shaped Pokemon with stubby arms and legs",
       "It has a round body covered in soft, fluffy feathers",
       "Chansey's large, oval-shaped eyes are dark in color",
       "It has a short, thin beak and long, floppy ears",
@@ -1756,7 +1756,7 @@
   {
     "tag": "Tangela",
     "patterns": [
-      "Tangela is a vine-like Pok\u00e9mon",
+      "Tangela is a vine-like Pokemon",
       "It has a round blue body covered in long, leafy green vines",
       "The vines are tangled and matted, making it difficult to see its true form",
       "Its face is completely hidden by the vines, with only its eyes peeking through",
@@ -1772,7 +1772,7 @@
   {
     "tag": "Kangaskhan",
     "patterns": [
-      "Kangaskhan is a large, bipedal Pok\u00e9mon that resembles a kangaroo",
+      "Kangaskhan is a large, bipedal Pokemon that resembles a kangaroo",
       "It has a brown body with cream-colored accents and a thick, powerful tail",
       "On its head, there is a curved, cream-colored horn-like structure and two rounded ears",
       "Kangaskhan has a distinctive baby pouch on its belly, where it carries and protects its young",
@@ -1787,7 +1787,7 @@
   {
     "tag": "Horsea",
     "patterns": [
-      "Horsea is a small seahorse-like Pok\u00e9mon that has a blue body with a white belly",
+      "Horsea is a small seahorse-like Pokemon that has a blue body with a white belly",
       "It has a single dorsal fin on its back and a long, coiled tail",
       "Horsea's eyes are round and its mouth is small, with a snout that resembles a horse",
       "It has small, stubby fins on its sides and a spiky ridge on its forehead",
@@ -1801,7 +1801,7 @@
   {
     "tag": "Seadra",
     "patterns": [
-      "Seadra is an aquatic Pok\u00e9mon with a sleek, slim body",
+      "Seadra is an aquatic Pokemon with a sleek, slim body",
       "It has a deep blue coloration with lighter blue markings on its chest, fins, and tail",
       "Seadra has a long, tubular snout and sharp teeth",
       "Its eyes are round and blue, giving it a determined and focused look",
@@ -1819,7 +1819,7 @@
   {
     "tag": "Goldeen",
     "patterns": [
-      "Goldeen is a beautiful, water-type Pok\u00e9mon that resembles a small, orange fish",
+      "Goldeen is a beautiful, water-type Pokemon that resembles a small, orange fish",
       "It has a sleek body with a single dorsal fin on its back",
       "Its eyes are large and round, and its mouth is small and pointed",
       "Goldeen's most distinguishing feature is its long, thin, and elegant tail fin",
@@ -1835,7 +1835,7 @@
   {
     "tag": "Seaking",
     "patterns": [
-      "large, orange and white fish Pok\u00e9mon with a thin, streamline body",
+      "large, orange and white fish Pokemon with a thin, streamline body",
       "It has a long, sharp dorsal fin on its back, as well as two pectoral fins on each side",
       "Seaking has bright blue eyes and a small mouth with sharp teeth",
       "Its orange body is covered in large, white spots, and it has a cream-colored underbelly",
@@ -1850,7 +1850,7 @@
   {
     "tag": "Staryu",
     "patterns": [
-      "Staryu is a star-shaped Pok\u00e9mon that is primarily blue in color",
+      "Staryu is a star-shaped Pokemon that is primarily blue in color",
       "It has a gold gem in the center of its body, which can glow and emit light",
       "It has five limbs that resemble arms with small, rounded ends",
       "The tips of its arms are rounded and blue, with a small red gem on each tip",
@@ -1866,7 +1866,7 @@
   {
     "tag": "Starmie",
     "patterns": [
-      "Starmie is a celestial Pok\u00e9mon with a unique star shape",
+      "Starmie is a celestial Pokemon with a unique star shape",
       "It has a purple body covered in hard, gem-like protrusions",
       "At the center of its body is a red jewel that glows brightly",
       "Starmie has five slender, translucent arms that can be extended or retracted",
@@ -1882,7 +1882,7 @@
   {
     "tag": "Mr. Mime",
     "patterns": [
-      "Mr. Mime is a humanoid Pok\u00e9mon that has a white, clown-like body with black markings",
+      "Mr. Mime is a humanoid Pokemon that has a white, clown-like body with black markings",
       "It has a round, bald head with pale pink cheeks and a wide smile",
       "Its arms and legs are long and thin, and it has a pair of white, three-fingered hands",
       "Mr. Mime wears a red and white striped shirt with suspenders, as well as black pants and shoes",
@@ -1898,7 +1898,7 @@
   {
     "tag": "Scyther",
     "patterns": [
-      "a bipedal, insectoid Pok\u00e9mon that resembles a praying mantis",
+      "a bipedal, insectoid Pokemon that resembles a praying mantis",
       "It has a slim, green body with sharp, blade-like arms",
       "Its forearms are large and segmented, with two sharp, scythe-like blades",
       "The blades on its arms can slice through thick tree trunks with ease",
@@ -1916,7 +1916,7 @@
   {
     "tag": "Jynx",
     "patterns": [
-      "Jynx is a humanoid Pok\u00e9mon that resembles a woman wearing an elegant, flowing dress",
+      "Jynx is a humanoid Pokemon that resembles a woman wearing an elegant, flowing dress",
       "It has pale purple skin, long blonde hair, and large, round eyes with blue irises",
       "Jynx has voluptuous lips that are always puckered and pink in color",
       "Its arms are long and slender with three fingers on each hand",
@@ -1933,7 +1933,7 @@
   {
     "tag": "Electabuzz",
     "patterns": [
-      "Electabuzz is a tall, humanoid Pok\u00e9mon with a primarily yellow body",
+      "Electabuzz is a tall, humanoid Pokemon with a primarily yellow body",
       "It has large, pointy ears, and a long, thin tail with a round, red tip",
       "Its body is covered in smooth, yellow fur, except for its black stripes on the arms and legs",
       "Electabuzz has a fierce expression with intense, white eyes and a wide mouth",
@@ -1950,7 +1950,7 @@
   {
     "tag": "Magmar",
     "patterns": [
-      "Magmar is a bipedal Pok\u00e9mon that has a muscular build",
+      "Magmar is a bipedal Pokemon that has a muscular build",
       "It is primarily red in color with yellow flame-like patterns on its body",
       "It has a round, yellow beak and small, circular eyes",
       "Magmar has a row of small, jagged spikes running down its back",
@@ -1965,7 +1965,7 @@
   {
     "tag": "Pinsir",
     "patterns": [
-      "Pinsir is a large insect-like Pok\u00e9mon with a sturdy body",
+      "Pinsir is a large insect-like Pokemon with a sturdy body",
       "It is predominantly brown in color, with a shiny exoskeleton",
       "Its most prominent feature is its long, curved horns on its head",
       "These horns are black with thin yellow stripes, giving them a sharp and menacing appearance",
@@ -1980,7 +1980,7 @@
   {
     "tag": "Tauros",
     "patterns": [
-      "A large, bull-like Pok\u00e9mon with a muscular build covered in short, brown fur",
+      "A large, bull-like Pokemon with a muscular build covered in short, brown fur",
       "It has a row of sharp, yellow horns that extend from the sides of its head",
       "Tauros has a thick, powerful neck and a strong tail that it uses for balance",
       "Its eyes are fierce and red, and its nostrils flare when it is angered",
@@ -1995,11 +1995,11 @@
   {
     "tag": "Magikarp",
     "patterns": [
-      "A fish-like Pok\u00e9mon with a round body and vibrant orange scales",
+      "A fish-like Pokemon with a round body and vibrant orange scales",
       "It has large, round eyes and a gaping mouth with a pinkish hue",
-      "Despite its feeble appearance, it has a fierce determination to evolve into a powerful water dragon Pok\u00e9mon",
+      "Despite its feeble appearance, it has a fierce determination to evolve into a powerful water dragon Pokemon",
       "Often seen flopping around aimlessly on the water's surface, it is known for its lack of swimming skills",
-      "Its weak attacks and constantly being preyed upon make it one of the most vulnerable Pok\u00e9mon in the sea",
+      "Its weak attacks and constantly being preyed upon make it one of the most vulnerable Pokemon in the sea",
       "If it manages to survive long enough and undergoes a transformation, it can become a formidable force to be reckoned with",
       "Magikarp"
     ],
@@ -2010,7 +2010,7 @@
   {
     "tag": "Gyarados",
     "patterns": [
-      "Gyarados is a large, serpentine Pok\u00e9mon with a blue body and a cream-colored underbelly",
+      "Gyarados is a large, serpentine Pokemon with a blue body and a cream-colored underbelly",
       "It has a long, serpentine neck and a large, fierce-looking head with sharp fangs",
       "Its fins are blue and its tail is powerful, allowing it to swim at incredible speeds",
       "Gyarados has a row of spiky ridges along its back and a cluster of four white, barb-like whiskers on each side of its face",
@@ -2024,7 +2024,7 @@
   {
     "tag": "Lapras",
     "patterns": [
-      "massive, sea creature Pok\u00e9mon that resembles a plesiosaur",
+      "massive, sea creature Pokemon that resembles a plesiosaur",
       "It has a long neck and a large rounded body",
       "Its skin is a light blue color, and it has a cream-colored underbelly",
       "Lapras has large blue eyes and a small horn on its forehead",
@@ -2041,11 +2041,11 @@
   {
     "tag": "Ditto",
     "patterns": [
-      "Ditto is a small, amorphous Pok\u00e9mon that can transform into any other Pok\u00e9mon",
+      "Ditto is a small, amorphous Pokemon that can transform into any other Pokemon",
       "It has a simple, pinkish-purple body with a smiling face",
       "Ditto's eyes are round and black, and it has a small, triangular mouth",
       "Its entire appearance is very plain and featureless, allowing it to easily blend in with its surroundings",
-      "Although Ditto lacks any defining characteristics, its transformation ability makes it an unpredictable and versatile Pok\u00e9mon",
+      "Although Ditto lacks any defining characteristics, its transformation ability makes it an unpredictable and versatile Pokemon",
       "Ditto"
     ],
     "responses": [
@@ -2055,7 +2055,7 @@
   {
     "tag": "Eevee",
     "patterns": [
-      "small, cute, mammalian Pok\u00e9mon that resembles a fox or a small dog",
+      "small, cute, mammalian Pokemon that resembles a fox or a small dog",
       "It has short, brown fur with a cream-colored mane and fluffy tail",
       "Its large, round ears have black tips, and it has wide, innocent-looking eyes",
       "Eevee has a small, black nose and a small, pink mouth",
@@ -2073,7 +2073,7 @@
   {
     "tag": "Vaporeon",
     "patterns": [
-      "Elegant and graceful aquatic Pok\u00e9mon with a sleek body",
+      "Elegant and graceful aquatic Pokemon with a sleek body",
       "It has a pale blue body and a cream-colored ruff around its neck and three fins on its head",
       "Its eyes are red and it has a small mouth with sharp teeth",
       "Vaporeon has a beautiful, flowing tail made of water that looks like ribbons",
@@ -2087,7 +2087,7 @@
   {
     "tag": "Jolteon",
     "patterns": [
-      "Jolteon is a small, electrifying Pok\u00e9mon that resembles a fox",
+      "Jolteon is a small, electrifying Pokemon that resembles a fox",
       "It has bright yellow fur that stands up on end to create a spiky appearance",
       "Jolteon has a sleek body and a long, bushy tail",
       "Its fur is tipped with sharp, electrically charged spines that can be raised at will",
@@ -2106,7 +2106,7 @@
   {
     "tag": "Flareon",
     "patterns": [
-      "Flareon is a small, fox-like Pok\u00e9mon",
+      "Flareon is a small, fox-like Pokemon",
       "It is covered in fluffy, fiery red fur",
       "With its thick fur and bushy tail, Flareon resembles a fox or a fire elemental",
       "It has a large, fluffy mane around its head",
@@ -2126,7 +2126,7 @@
   {
     "tag": "Porygon",
     "patterns": [
-      "Porygon is a virtual Pok\u00e9mon that has a unique and futuristic appearance",
+      "Porygon is a virtual Pokemon that has a unique and futuristic appearance",
       "It has a pink and blue body with sharp edges and polygonal shapes",
       "Its head is triangular in shape with a single eye in the center",
       "The eye is red and has a circuit board-like pattern",
@@ -2141,12 +2141,12 @@
   {
     "tag": "Omanyte",
     "patterns": [
-      "Omanyte is a small, fossil Pok\u00e9mon that resembles a spiral-shelled ammonite",
+      "Omanyte is a small, fossil Pokemon that resembles a spiral-shelled ammonite",
       "It has a round, pale blue body with a soft, spiral shell on its back",
       "The shell has a helix shape and is a deep blue color with light blue spots",
       "Omanyte has large, round eyes and a pair of tentacles that extend from its sides",
       "It has short, stubby arms and a fleshy protrusion on its belly",
-      "The Pok\u00e9mon's expression is typically calm and serene",
+      "The Pokemon's expression is typically calm and serene",
       "Omanyte is often found in ancient sea beds and its shell is believed to be a symbol of longevity and good fortune",
       "Omanyte"
     ],
@@ -2157,7 +2157,7 @@
   {
     "tag": "Omastar",
     "patterns": [
-      "Omastar is a large, prehistoric Pok\u00e9mon that resembles a fossilized snail",
+      "Omastar is a large, prehistoric Pokemon that resembles a fossilized snail",
       "It has a yellow, spiraled shell with a blue-grey body",
       "The shell is covered in sharp spikes, giving it a formidable appearance",
       "Omastar has multiple tentacle-like appendages called tentacles",
@@ -2173,7 +2173,7 @@
   {
     "tag": "Kabuto",
     "patterns": [
-      "Kabuto is a Pok\u00e9mon that resembles a prehistoric crustacean",
+      "Kabuto is a Pokemon that resembles a prehistoric crustacean",
       "It has a brown, segmented shell on its back and a pale yellow body.",
       "Kabuto has large, red eyes and a pair of powerful pincers.",
       "Its pincers are used for capturing prey and for defense.",
@@ -2188,7 +2188,7 @@
   {
     "tag": "Kabutops",
     "patterns": [
-      "Kabutops is a bipedal, fossil Pok\u00e9mon that resembles a prehistoric crustacean",
+      "Kabutops is a bipedal, fossil Pokemon that resembles a prehistoric crustacean",
       "It has a light gray body and a large, curved, shell-like helmet on its head",
       "The helmet has an indentation on top, and two small spikes on the sides",
       "Its eyes are red and its mouth resembles a beak",
@@ -2204,12 +2204,12 @@
   {
     "tag": "Aerodactyl",
     "patterns": [
-      "Aerodactyl is a large, prehistoric Pok\u00e9mon resembling a pterosaur",
+      "Aerodactyl is a large, prehistoric Pokemon resembling a pterosaur",
       "It has a long, narrow head with sharp teeth and a beak-like snout",
       "Its body is covered in dark gray and purple scales",
       "Aerodactyl has two pairs of wings, with the primary ones being larger and more muscular",
       "It has sharp talons on its claws and long, thin tail with a diamond-shaped tip",
-      "The Pok\u00e9mon has red eyes and a fierce, intimidating expression",
+      "The Pokemon has red eyes and a fierce, intimidating expression",
       "Aerodactyl is known for its incredibly fast flight speed",
       "Aerodactyl"
     ],
@@ -2220,7 +2220,7 @@
   {
     "tag": "Snorlax",
     "patterns": [
-      "Snorlax is a large, bear-like Pok\u00e9mon covered in thick, bluish-black fur",
+      "Snorlax is a large, bear-like Pokemon covered in thick, bluish-black fur",
       "It has a big head with round ears, a wide snout, and small, closed eyes",
       "Its body is incredibly bulky and is known for being very round and plump",
       "Snorlax has short, stubby arms and legs, and it has five fingers and three toes",
@@ -2237,7 +2237,7 @@
   {
     "tag": "Articuno",
     "patterns": [
-      "Articuno is a legendary bird Pok\u00e9mon with a large wingspan",
+      "Articuno is a legendary bird Pokemon with a large wingspan",
       "It has a predominantly blue plumage with a white underbelly",
       "Its head is adorned with a flowing crest and it has long, thin, sharp beak",
       "Articuno has long, sleek tail feathers that have a distinctive ice formation at the tip",
@@ -2252,7 +2252,7 @@
   {
     "tag": "Zapdos",
     "patterns": [
-      "Zapdos is a large, legendary bird-like Pok\u00e9mon that is primarily yellow in color",
+      "Zapdos is a large, legendary bird-like Pokemon that is primarily yellow in color",
       "It has a long, thin neck and long, yellow wings with black accents",
       "Its head is adorned with a crest of feathers that resembles lightning bolts",
       "Zapdos has a sharp beak and intense, electric eyes",
@@ -2268,7 +2268,7 @@
   {
     "tag": "Moltres",
     "patterns": [
-      "Moltres is a majestic, bird-like Pok\u00e9mon with fiery orange and yellow plumage",
+      "Moltres is a majestic, bird-like Pokemon with fiery orange and yellow plumage",
       "Its long wings are shaped like flames and have a brilliant, glowing appearance",
       "It has a very long, flowing tail and sharp talons on its feet",
       "Moltres's head is adorned with a flaming crown-like crest",
@@ -2282,7 +2282,7 @@
   {
     "tag": "Dratini",
     "patterns": [
-      "Dratini is a small, serpent-like Pok\u00e9mon with a light blue body",
+      "Dratini is a small, serpent-like Pokemon with a light blue body",
       "It has a white underside and a white, rounded snout",
       "Dratini's eyes are large and round, and its pupils are a deep red color",
       "It has two small, white wings on its back that enable it to glide through the air",
@@ -2296,14 +2296,14 @@
   {
     "tag": "Dragonair",
     "patterns": [
-      "Dragonair is a Pok\u00e9mon known for its elegant and serpentine appearance",
+      "Dragonair is a Pokemon known for its elegant and serpentine appearance",
       "It has a long, thin and graceful body that shines with a beautiful iridescent blue color",
       "Its head is small and round, with two horn-like appendages on top",
       "Dragonair's eyes are large and expressive, and its mouth is small and gentle",
       "It has two sets of wings on its neck and tail, giving it an ethereal and majestic presence",
       "The scales on its body are smooth and shimmering, resembling flowing water",
       "The tail of Dragonair is long and flowing, resembling a ribbon or streamer",
-      "Its overall body shape exudes a sense of elegance, making Dragonair a truly captivating Pok\u00e9mon",
+      "Its overall body shape exudes a sense of elegance, making Dragonair a truly captivating Pokemon",
       "Dragonair"
     ],
     "responses": [
@@ -2313,7 +2313,7 @@
   {
     "tag": "Dragonite",
     "patterns": [
-      "Dragonite is a large, dragon-like Pok\u00e9mon with a serpentine body",
+      "Dragonite is a large, dragon-like Pokemon with a serpentine body",
       "It has orange skin and a cream-colored underside",
       "Dragonite has a round head with large, round eyes, and a small snout with nostrils",
       "It has two small, pointed ears on the top of its head, and a large, spiky horn on its forehead",
@@ -2330,7 +2330,7 @@
   {
     "tag": "Mewtwo",
     "patterns": [
-      "Mewtwo is a powerful, genetically enhanced Psychic-type Pok\u00e9mon",
+      "Mewtwo is a powerful, genetically enhanced Psychic-type Pokemon",
       "It has a slender, humanoid body with pale purple skin",
       "Mewtwo has a large, round head with a pointed top and two long, ear-like appendages",
       "Its eyes are a vibrant blue and shine with intelligence and power",
@@ -2346,7 +2346,7 @@
   {
     "tag": "Mew",
     "patterns": [
-      "Mew is a legendary Pok\u00e9mon known for its small, pink, and cat-like appearance",
+      "Mew is a legendary Pokemon known for its small, pink, and cat-like appearance",
       "It has a rounded body with short arms and legs",
       "Mew's eyes are large and blue, giving it a curious and innocent expression",
       "Its overall body shape is similar to that of a kitten",
@@ -2378,7 +2378,7 @@
     ]
   },
   {
-    "tag": "Tentacruel",
+    "tag": "Gengar",
     "patterns": [
       "Gengar is a dark purple, bipedal Pokémon with a roundish body",
       "It has red eyes, a wide mouth that is usually curled into a sinister grin, and pointed ears",
