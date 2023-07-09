@@ -77,6 +77,10 @@ stop_words = stopwords.words('english')
 for intent in intents:
   for pattern in intent['patterns']:
     word_list = nltk.word_tokenize(pattern)
+    word_list = [word.split('-') for word in word_list]
+    word_list = [item for sublist in word_list for item in sublist] # flatten list
+    word_list = [word.split('/') for word in word_list]
+    word_list = [item for sublist in word_list for item in sublist] # flatten list
     word_list = [word for word in word_list if word.lower() not in stop_words]
     words.extend(word_list)
     documents.append((word_list, intent['tag']))
@@ -150,15 +154,31 @@ print(f'Model saved to {model_path}')
 # lr: 0.01, batch: 8, epochs: 1000 = 0.65
 # lr: 0.01, batch: 12, epochs: 1000 = 0.74
 # lr: 0.01, batch: 16, epochs: 1000 = 0.76
-# lr: 0.005, batch: 16, epochs: 1000 = 0.79
 # lr: 0.0025, batch: 16, epochs: 1000 = 0.77
 # lr: 0.003, batch: 10, epochs: 1000 = 0.78
 # lr: 0.004, batch: 12, epochs: 1000 = 0.78
 # lr: 0.0045, batch: 20, epochs: 1000 = loss: 0.9343 - accuracy: 0.7734
 # lr: 0.0045, batch: 8, epochs: 1000 = 0.76
-# lr: 0.006, batch: 16, epochs: 1000 = loss: 0.9222 - accuracy: 0.7784 - 170ms/epoch
+# lr: 0.005, batch: 16, epochs: 1000 = 0.79
+# lr: 0.00525, batch: 16, epochs: 1000 = loss: 0.9149 - accuracy: 0.7818 - 109ms/epoch
 # lr: 0.0055, batch: 16, epochs: 1000 = loss: 0.8965 - accuracy: 0.7894 - 171ms/epoch
-# lr: 0.0066, batch: 16, epochs: 1000 = 
+# lr: 0.005525, batch: 16, epochs: 1000 = loss: 0.9197 - accuracy: 0.7869 - 174ms/epoch
+# lr: 0.0056375, batch: 16, epochs: 1000 = loss: 0.9071 - accuracy: 0.7869 - ms/epoch
+# lr: 0.00575, batch: 16, epochs: 1000 = loss: 0.8899 - accuracy: 0.7928 - 109ms/epoch
+# lr: 0.005875, batch: 16, epochs: 1000 = loss: 0.9178 - accuracy: 0.7902 - 174ms/epoch
+# lr: 0.006, batch: 16, epochs: 1000 = loss: 0.9222 - accuracy: 0.7784 - 170ms/epoch
+# lr: 0.0062, batch: 16, epochs: 1000 = loss: 0.9269 - accuracy: 0.7810 - ms/epoch
+# lr: 0.0066, batch: 16, epochs: 1000 = loss: 0.9035 - accuracy: 0.7894 - 189ms/epoch
+# lr: 0.0068, batch: 16, epochs: 1000 = loss: 0.9156 - accuracy: 0.7810 - ms/epoch
+# lr: 0.007, batch: 16, epochs: 1000 = loss: 0.8810 - accuracy: 0.7953 - 109ms/epoch
+# lr: 0.0071, batch: 16, epochs: 1000 = loss: 0.9192 - accuracy: 0.7860 - 109ms/epoch
+
+# lr: 0.007, batch: 5, epochs: 1000 = loss: 1.4793 - accuracy: 0.6622 - 491ms/epoch
+# lr: 0.007, batch: 8, epochs: 1000 = loss: 1.0925 - accuracy: 0.7439 - 315ms/epoch - 2ms/step
+# lr: 0.007, batch: 14, epochs: 1000 = loss: 0.9506 - accuracy: 0.7683 - 125ms/epoch
+# lr: 0.007, batch: 20, epochs: 1000 = loss: 0.9317 - accuracy: 0.7767 - 94ms/epoch
+
+# lr: 0.007, batch: 16, epochs: 3000 = loss: 0.8362 - accuracy: 0.8155 - 109ms/epoch
 
 
 # qtype_intents
