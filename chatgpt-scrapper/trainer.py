@@ -15,7 +15,6 @@ from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 
 from timeit import default_timer as timer
-t_start = timer()
 
 
 filedir = os.path.dirname(os.path.realpath(__file__))
@@ -52,6 +51,8 @@ output_foldername = input('Output folder name (eg. mymodel): ')
 epochs = input('Epochs (default 30): ')
 learning_rate = input('Learning rate (default 0.01): ')
 batch_size = input('Batch size (default 16): ')
+
+t_start = timer()
 
 epochs = 30 if epochs == '' else int(epochs)
 learning_rate = 0.01 if learning_rate == '' else float(learning_rate)
@@ -142,3 +143,20 @@ exec_time_str = f'{minutes}m {seconds}s'
 
 print(f'Training completed in {exec_time_str} seconds with {len(train_x)} training samples.')
 print(f'Model saved to {model_path}')
+
+# pguess_intents_backup
+# lr: 0.01, batch: 8, epochs: 1000 = 0.65
+# lr: 0.01, batch: 12, epochs: 1000 = 0.74
+# lr: 0.01, batch: 16, epochs: 1000 = 0.76
+# lr: 0.005, batch: 16, epochs: 1000 = 0.79
+# lr: 0.0025, batch: 16, epochs: 1000 = 0.77
+# lr: 0.003, batch: 10, epochs: 1000 = 0.78
+# lr: 0.004, batch: 12, epochs: 1000 = 0.78
+# lr: 0.0045, batch: 20, epochs: 1000 = loss: 0.9343 - accuracy: 0.7734
+# lr: 0.0045, batch: 8, epochs: 1000 = 0.76
+# lr: 0.006, batch: 16, epochs: 1000 =
+
+
+# qtype_intents
+# lr: 0.01, batch: 16, epochs: 10 = loss: 5.2128e-04 - accuracy: 0.9999 - 4s/epoch
+

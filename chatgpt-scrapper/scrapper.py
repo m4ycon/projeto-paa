@@ -1,4 +1,6 @@
 import os
+import csv
+import json
 import openai
 from dotenv import load_dotenv
 
@@ -35,10 +37,47 @@ class GptScrapper:
 
     return reply
 
-
 gptScrapper = GptScrapper()
+
+
+# filedir = os.path.dirname(os.path.realpath(__file__))
+# csv_file = open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8")
+# pokemons = csv.DictReader(csv_file)
+# pokemon_names = [pokemon["name"] for pokemon in pokemons]
+
+# intents = [] # { "tag": pokemons_name, "patterns": [], "responses": [pokemons_name] }
+# filename = 'pguess_intents.json'
+
+# for i, pokemon_name in enumerate(pokemon_names):
+#   print(f'{i+1}/{len(pokemon_names)}: {pokemon_name}')
+#   reply = ''
+#   patterns = []
+
+#   try:
+#     reply = gptScrapper.chat_without_context(pokemon_name)
+#     patterns = json.loads(reply)['patterns']
+#   except:
+#     print(f'Error: {pokemon_name}\n{reply}')
+#     continue
+
+#   intents.append({
+#     "tag": pokemon_name,
+#     "patterns": patterns,
+#     "responses": [pokemon_name]
+#   })
+#   print(f'Total tokens: {gptScrapper.total_tokens}')
+
+# with open(f'{filedir}/data/{filename}', mode="w", encoding="utf-8") as intents_file:
+#   json.dump(intents, intents_file, indent=2)
+
+# print(f"Added {len(intents)} questions to {filename}")
+
+
 
 while True:
   message = input('\nuser > ')
   reply = gptScrapper.chat_without_context(message)
   print(f'\n{gptScrapper.model_name} ({gptScrapper.total_tokens}) > {reply}')
+
+
+# Gengar, Tentacruel
