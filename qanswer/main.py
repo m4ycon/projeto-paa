@@ -1,8 +1,8 @@
-import random
 import json
 import pickle
 import numpy as np
 import os
+import csv
 
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -11,6 +11,9 @@ from nltk.corpus import stopwords
 from tensorflow.keras.models import load_model
 
 filedir = os.path.dirname(os.path.realpath(__file__))
+
+csv_file = open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8")
+pokemons_csv = list(csv.DictReader(csv_file))
 
 try:
   nltk.word_tokenize('test')
@@ -22,10 +25,10 @@ except LookupError:
 
 
 class ModelLoader:
-  def __init__(self, model_name='pguess', intents_file='pguess_intents_backup.json', min_confidence=0.70):
+  def __init__(self, model_name='pguess', intents_file='pguess_intents_backup.json'):
     self.lemmatizer = WordNetLemmatizer()
     self.stop_words = stopwords.words('english')
-    self.min_confidence = min_confidence
+    self.ignore_letters = ['?', '!', '.', ',']
 
     intents_file = open(f'{filedir}/data/pguess_intents_backup.json', mode="r", encoding="utf-8").read()
     self.list_of_intents = json.loads(intents_file)
@@ -37,7 +40,7 @@ class ModelLoader:
   def clean_up_sentence(self, sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [word for word in sentence_words if word.lower() not in self.stop_words]
-    sentence_words = [self.lemmatizer.lemmatize(word.lower()) for word in sentence_words]
+    sentence_words = [self.lemmatizer.lemmatize(word.lower()) for word in sentence_words if word not in self.ignore_letters]
     return sentence_words
 
 
@@ -53,9 +56,8 @@ class ModelLoader:
 
   def predict_class(self, sentence):
     bow = self.bag_of_words(sentence)
-    res = self.model.predict(np.array([bow]))[0]
-    ERROR_THRESHOLD = 1 - self.min_confidence
-    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
+    res = self.model.predict(np.array([bow]), verbose=0)[0]
+    results = [[i, r] for i, r in enumerate(res)]
 
     results.sort(key=lambda x: x[1], reverse=True)
     return [{"intent": self.classes[r[0]], "probability": str(r[1])} for r in results]
@@ -63,17 +65,89 @@ class ModelLoader:
 
   def get_response(self, message):
     intents_list = self.predict_class(message)
-    tag = intents_list[0]['intent']
-    for i in self.list_of_intents:
-      if i['tag'] == tag:
-        return random.choice(i['responses'])
+    return intents_list[0] # {'intent': 'tag', 'probability': '0.9999999'}
 
 
-model = ModelLoader('pguess', 'pguess_intents_backup.json')
+class PokeQuestionAnswerer:
+  def __init__(self):
+    self.pguess = ModelLoader('pguess2', 'pguess_intents_merged_backup.json')
+    self.qtype = ModelLoader('qtype', 'qtype_intents.json')
+    self.pokemon_names = [pokemon["name"].lower().strip() for pokemon in pokemons_csv]
+
+  def message_has_some_pname(self, message):
+    sentence_words = self.pguess.clean_up_sentence(message)
+    for word in sentence_words:
+      if word in self.pokemon_names:
+        return word
+    return None
+  
+  def find_pokemon(self, pokemon_name):
+    for pokemon in list(pokemons_csv):
+      if pokemon["name"].lower().strip() == pokemon_name.lower().strip():
+        return pokemon
+    return None
+
+  def talking_about(self, question):
+    pguess = self.pguess.get_response(question)
+    pokemon_name, pname_prob = pguess['intent'], float(pguess['probability'])
+    pname_found = self.message_has_some_pname(question)
+    if pname_found:
+      pokemon_name = pname_found
+      pname_prob = 1.0
+
+    qtype = self.qtype.get_response(question)
+    qtype, qtype_prob = qtype['intent'], float(qtype['probability'])
+
+    return {
+      'qtype': qtype,
+      'qtype_prob': qtype_prob,
+      'pguess': pokemon_name,
+      'pguess_prob': pname_prob
+    }
+  
+  def answer(self, question):
+    tab = self.talking_about(question)
+    pokemon_name, pname_prob = tab['pguess'], tab['pguess_prob']
+    qtype, qtype_prob = tab['qtype'], tab['qtype_prob']
+
+    pokemon = self.find_pokemon(pokemon_name)
+    pokemon_name = pokemon_name.capitalize()
+
+    infos = f'\n{pokemon_name} ({pname_prob}), {qtype} ({qtype_prob})'
+
+    if pname_prob < 0.4:
+      return "I don't know which pokemon you're talking about." + infos
+    if qtype_prob < 0.4:
+      return "I don't know what you're asking about." + infos
+    
+    response = ''
+    if qtype == "type":
+      type1 = pokemon["type1"].capitalize()
+      type2 = pokemon["type2"].capitalize()
+      types = type1
+      if type2 != "":
+        types += f"/{type2}"
+      response += f"{pokemon_name} is {types} type."
+    elif qtype == "abilities":
+      abilities = pokemon["abilities"].replace("[", "").replace("]", "").replace("'", "").split(r",\s?")
+      abilities = ', '.join(abilities)
+      response += f"{pokemon_name} has {abilities} abilities."
+    elif qtype == "is_legendary":
+      legendary_comp = "" if pokemon["is_legendary"] == "1" else " not"
+      response += f"{pokemon_name} is{legendary_comp} a legendary pokemon."
+    elif qtype == "classification":
+      classification = pokemon["classification"]
+      response += f"{pokemon_name} is a {classification}."
+
+    return response + infos
+
+
+
+questionAnswerer = PokeQuestionAnswerer()
 
 print("Welcome to the Pokemon Chatbot!")
 while True:
   message = input("You > ")
-  res = model.get_response(message)
+  res = questionAnswerer.answer(message)
   print(f"Bot > {res}")
 
