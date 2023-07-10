@@ -172,7 +172,8 @@ class PokeQuestionAnswerer:
     elif qtype == "suggestions":
       if ptype != "none":
         res = self.ans_suggestions(ptype)
-      res = self.ans_classification(pokemon) # try to guess the pokemon
+      else:
+        res = self.ans_classification(pokemon) # try to guess the pokemon
 
     elif pname_prob < 0.4:
       res = "I don't know which pokemon you're talking about."
