@@ -10,15 +10,37 @@ intents = {
   "abilities": [],
   "is_legendary": [],
   "classification": [],
+  "weak_against": [],
+  "strong_against": [],
+  "suggestions": [],
 }
 
 with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file:
   csv_reader = csv.DictReader(csv_file)
+  ptypes = ['bug', 'dark', 'dragon', 'electric', 'fairy', 'fight', 'fire', 'flying', 'ghost', 'grass', 'ground', 'ice', 'normal', 'poison', 'psychic', 'rock', 'steel', 'water']
+
+  for t in ptypes:
+    intents["suggestions"].extend([
+      f"List some {t} type pokemon.",
+      f"List all {t} type pokemon.",
+      f"List some pokemons that are {t} type.",
+      f"Name a few {t} type pokemon.",
+      f"What are some examples of {t} type pokemon?",
+      f"Which pokemon belong to the {t} type category?",
+      f"Give me some names of {t} type pokemon.",
+      f"List some {t} pokemon.",
+      f"List all {t} pokemon.",
+      f"List some pokemons that are {t}.",
+      f"Name a few {t} pokemon.",
+      f"What are some examples of {t} pokemon?",
+      f"Which pokemon belong to the {t} category?",
+      f"Give me some names of {t} pokemon.",
+    ])
 
   for i, row in enumerate(csv_reader):
     pokemon_name = row["name"]
     
-    types = row["type1"] + ("" if row["type2"] == "" else " and " + row["type2"])
+    ptypes = row["type1"] + ("" if row["type2"] == "" else " and " + row["type2"])
     intents["type"].extend([
       f"what type is {pokemon_name}?",
       f"what type of pokemon is {pokemon_name}?",
@@ -216,7 +238,7 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"Tell me if {pokemon_name} is counted among the legendary or non-legendary Pokémon."
     ])
 
-    classification = row["classfication"]
+    classification = row["classification"]
     intents["classification"].extend([
       f"What is the classification of {pokemon_name}?",
       f"how is {pokemon_name} classified?",
@@ -259,6 +281,38 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"Tell me the class assignment of {pokemon_name}.",
       f"Which designation is associated with {pokemon_name}?"
     ])
+
+    for t in ptypes:
+      intents['weak_against'].extend([
+        f"Is {pokemon_name} weak against {t}?",
+        f"Is {t} strong against {pokemon_name}?",
+        f"{t} type is strong against {pokemon_name}?",
+        f"is {pokemon_name} weak to {t}?",
+        f"is {t} type effective against {pokemon_name}?",
+        f"does {pokemon_name} have a weakness to {t}?",
+        f"is {pokemon_name} vulnerable to {t} attacks?",
+        f"can {t} moves do extra damage to {pokemon_name}?",
+        f"is {pokemon_name} easily defeated by {t} type moves?",
+        f"is {pokemon_name} susceptible to {t} type attacks?",
+        f"is {pokemon_name} disadvantageous against {t} type pokemon?",
+        f"does {t} type have an advantage over {pokemon_name}?"
+      ])
+
+      intents['strong_against'].extend([
+        f"Is {pokemon_name} strong against {t}?",
+        f"Is {t} weak against {pokemon_name}?",
+        f"{t} type is weak against {pokemon_name}?",
+        f"is {pokemon_name} strong against {t}?",
+        f"is {pokemon_name} resistant to {t}?",
+        f"does {pokemon_name} have an advantage against {t} type?",
+        f"is {pokemon_name} immune to {t} attacks?",
+        f"can {pokemon_name} take less damage from {t} moves?",
+        f"is {pokemon_name} effective in battling {t} type pokemon?",
+        f"is {pokemon_name} powerful against {t} type moves?",
+        f"is {pokemon_name} advantageous against {t} type pokemon?",
+        f"does {pokemon_name} have a type advantage over {t} type?",
+        f"is {pokemon_name} good at countering {t} type attacks?"
+      ])
 
 
 # build questions_answers
