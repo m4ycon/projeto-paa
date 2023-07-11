@@ -13,6 +13,7 @@ intents = {
   "weak_against": [],
   "strong_against": [],
   "suggestions": [],
+  "evolutions": [],
 }
 
 with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file:
@@ -40,7 +41,6 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
   for i, row in enumerate(csv_reader):
     pokemon_name = row["name"]
     
-    ptypes = row["type1"] + ("" if row["type2"] == "" else " and " + row["type2"])
     intents["type"].extend([
       f"what type is {pokemon_name}?",
       f"what type of pokemon is {pokemon_name}?",
@@ -118,8 +118,6 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"What type are typically linked to {pokemon_name}?"
     ])
 
-    abilities = row["abilities"].replace("[", "").replace("]", "").replace("'", "").split(r",\s?")
-    abilities = ', '.join(abilities)
     intents["abilities"].extend([
       f"What are the abilities of {pokemon_name}?",
       f"what are {pokemon_name}'s abilities?",
@@ -161,11 +159,15 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"Which abilities does {pokemon_name} generally have?",
       f"What are {pokemon_name}'s general abilities?",
       f"List the abilities generally found in {pokemon_name}.",
-      f"Tell me the general abilities of {pokemon_name} typically observed."
+      f"Tell me the general abilities of {pokemon_name} typically observed.",
+      f"Which powers does {pokemon_name} usually possess?",
+      f"What are the general abilities of {pokemon_name}?",
+      f"List the abilities typically linked to {pokemon_name}.",
+      f"Tell me the abilities generally observed in {pokemon_name}.",
+      f"What are the powers of {pokemon_name}?",
+      f"{pokemon_name} powers?",
     ])
 
-    legendary = "yes" if row["is_legendary"] == "1" else "no"
-    legendary_comp = "" if row["is_legendary"] == "1" else "not"
     intents["is_legendary"].extend([
       f"Is {pokemon_name} legendary?",
       f"is {pokemon_name} a legendary pokemon?",
@@ -238,7 +240,6 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"Tell me if {pokemon_name} is counted among the legendary or non-legendary Pokémon."
     ])
 
-    classification = row["classification"]
     intents["classification"].extend([
       f"What is the classification of {pokemon_name}?",
       f"how is {pokemon_name} classified?",
@@ -279,7 +280,33 @@ with open(f'{filedir}/data/1st_gen.csv', mode="r", encoding="utf-8") as csv_file
       f"Provide the classification category of {pokemon_name}.",
       f"What class is {pokemon_name} grouped into?",
       f"Tell me the class assignment of {pokemon_name}.",
-      f"Which designation is associated with {pokemon_name}?"
+      f"Which designation is associated with {pokemon_name}?",
+      f"Guess the class designation of {pokemon_name}.",
+      f"Try to guess the designation category of {pokemon_name}.",
+      f"Guess the classification class of {pokemon_name}.",
+      f"Try to guess the class designation of {pokemon_name}.",
+      f"Guess what is {pokemon_name}.",
+      f"Try to guess the classification category of {pokemon_name}.",
+    ])
+
+    intents["evolutions"].extend([
+      f"what does {pokemon_name} evolve into?",
+      f"evolutions of {pokemon_name}",
+      f"what does {pokemon_name} evolve to?",
+      f"list of {pokemon_name} evolutions",
+      f"what is the next form of {pokemon_name}?",
+      f"how to evolve {pokemon_name}",
+      f"what are the possible outcomes of {pokemon_name} evolution?",
+      f"evolution chain of {pokemon_name}",
+      f"what is the final stage of {pokemon_name} evolution?",
+      f"different evolutions of {pokemon_name}",
+      f"evolving {pokemon_name}?",
+      f"evolution of {pokemon_name}",
+      f"what is the name of {pokemon_name} evolution?",
+      f"what are pokemon names of {pokemon_name} evolutions?",
+      f"list of evolution names of {pokemon_name}",
+      f"how does {pokemon_name} change when it evolves?",
+      f"chain of {pokemon_name} evolution",
     ])
 
     for t in ptypes:

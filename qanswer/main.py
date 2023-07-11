@@ -104,7 +104,11 @@ class PokeQuestionAnswerer:
   
   def ans_abilities(self, pok):
     abilities = pok["abilities"].replace("[", "").replace("]", "").replace("'", "").split(r",\s?")
-    abilities = ', '.join(abilities)
+    if len(abilities) == 1:
+      abilities = abilities[0]
+    else:
+      abilities = ', '.join(abilities[:-1]) + f" and {abilities[-1]}"
+
     return f"{pok['name'].capitalize()} has {abilities} abilities."
   
   def ans_legendary(self, pok):
@@ -122,6 +126,20 @@ class PokeQuestionAnswerer:
   def ans_strong_against(self, pok, ptype):
     is_strong = "" if float(pok[f"against_{ptype}"]) < 1 else " not"
     return f"{pok['name']} is{is_strong} strong against {ptype}."
+  
+  def ans_evolutions(self, pokemon):
+    evolutions = pokemon['evolutions'].split(',')
+    if len(evolutions) == 1:
+      return f"{pokemon['name']} does not evolve."
+
+    evolutions = [evolution.capitalize() for evolution in evolutions]
+
+    if (pokemon['name'].lower() == 'eevee'):
+      evolutions = ', '.join(evolutions[1:-1]) + f" and {evolutions[-1]}"
+      return f"{pokemon['name']} evolves into one of the following: {evolutions}."
+
+    evolutions = ', '.join(evolutions[:-1]) + f" and {evolutions[-1]}"
+    return f"The evolution chain that {pokemon['name']} is part of is: {evolutions}."
 
   def talking_about(self, question):
     pguess = self.pguess.get_response(question)
@@ -190,6 +208,8 @@ class PokeQuestionAnswerer:
       res = self.ans_strong_against(pokemon, ptype)
     elif qtype == "classification":
       res = self.ans_classification(pokemon)
+    elif qtype == "evolutions":
+      res = self.ans_evolutions(pokemon)
 
     return {
       'question': question,
